@@ -32,7 +32,7 @@ app.use(
 );
 
 app.use(cors({
-  origin: "https://pet-ecommerce-cq74.onrender.com",
+  origin: "https://pawpoint-pet-ecommerce.netlify.app",
   credentials: true
 }));
 
