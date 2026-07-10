@@ -1,6 +1,9 @@
 const express =
   require("express");
 
+const errorHandler =
+  require("./middleware/errorHandler");
+
 const cors =
   require("cors");
 
@@ -19,7 +22,7 @@ const authRoutes =
   require(
     "./routes/authRoutes"
   );
-
+  
 const app = express();
 
 app.use(
@@ -28,7 +31,10 @@ app.use(
   })
 );
 
-app.use(cors());
+app.use(cors({
+  origin: "http://localhost:5173",
+  credentials: true
+}));
 
 app.use(helmet());
 
@@ -42,10 +48,6 @@ app.use(
   })
 );
 
-app.use(
-  "/api/auth",
-  authRoutes
-);
 
 app.get(
   "/",
@@ -55,5 +57,13 @@ app.get(
     );
   }
 );
+
+app.use(
+  "/api/auth",
+  authRoutes
+);
+
+
+app.use(errorHandler);
 
 module.exports = app;

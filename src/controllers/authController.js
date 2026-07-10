@@ -1,111 +1,83 @@
-const User =
-  require("../models/User");
+const authService =
+require("../services/authService");
 
-const generateToken =
-  require("../utils/generateToken");
+class AuthController {
 
-const register = async (
-  req,
-  res
-) => {
-
-  try {
-
-    const {
-      firstName,
-      lastName,
-      email,
-      password
-    } = req.body;
-
-    const exists =
-      await User.findOne({
-        email
-      });
-
-    if (exists) {
-
-      return res.status(400).json({
-        success: false,
-        message:
-          "Email already exists"
-      });
-    }
-
-    const user =
-      await User.create({
-        firstName,
-        lastName,
-        email,
-        password
-      });
-
-    res.status(201).json({
-      success: true,
-      token:
-        generateToken(user._id),
-      user
-    });
-
-  } catch (error) {
-
-    res.status(500).json({
-      success: false,
-      message: error.message
-    });
-
-  }
-};
-
-const login = async (
-  req,
-  res
-) => {
-
-  try {
-
-    const {
-      email,
-      password
-    } = req.body;
-
-    const user =
-      await User.findOne({
-        email
-      });
-
-    if (
-      !user ||
-      !(await user.matchPassword(
-        password
-      ))
+    async register(
+        req,
+        res,
+        next
     ) {
 
-      return res.status(401).json({
-        success: false,
-        message:
-          "Invalid credentials"
-      });
+        try {
+
+            const result =
+                await authService.register(
+                    req.body
+                );
+
+            return res
+                .status(201)
+                .json({
+
+                    success: true,
+
+                    message:
+                        "Registration successful.",
+
+                    data: result
+
+                });
+
+        }
+
+        catch (error) {
+            console.error(error);
+            next(error);
+        }
     }
 
-    res.json({
-      success: true,
-      token:
-        generateToken(user._id),
-      user
-    });
+    async login(
+        req,
+        res,
+        next
+    ) {
 
-  } catch (error) {
+        try {
 
-    res.status(500).json({
-      success: false,
-      message: error.message
-    });
+            const {
+                email,
+                password
+            } = req.body;
 
-  }
-};
+            const result =
+                await authService.login(
+                    email,
+                    password
+                );
 
-module.exports = {
-  register,
-  login
-};
+            return res.json({
+
+                success: true,
+
+                message:
+                    "Login successful.",
+
+                data: result
+
+            });
+
+        }
+
+        catch (error) {
+
+            next(error);
+
+        }
+
+    }
+
+}
+
+module.exports =
+new AuthController();

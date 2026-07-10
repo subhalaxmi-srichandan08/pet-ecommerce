@@ -1,23 +1,19 @@
 require("dotenv").config();
 
-const app =
-  require("./app");
+const app = require("./app");
 
-const connectDB =
-  require("./config/db");
+console.log("Loading app...");
+
+const connectDB = require("./config/db");
+
+console.log("Connecting Mongo...");
 
 connectDB();
 
-const PORT =
-  process.env.PORT || 5000;
+console.log("Starting server...");
 
-app.listen(
-  PORT,
-  () => {
+const PORT = process.env.PORT || 5000;
 
-    console.log(
-      `Server running on ${PORT}`
-    );
-
-  }
-);
+app.listen(PORT, () => {
+    console.log(`Server running on ${PORT}`);
+});
