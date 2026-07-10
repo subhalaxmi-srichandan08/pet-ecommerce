@@ -22,7 +22,7 @@ const authRoutes =
   require(
     "./routes/authRoutes"
   );
-  
+
 const app = express();
 
 app.use(
@@ -32,7 +32,7 @@ app.use(
 );
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://pet-ecommerce-cq74.onrender.com",
   credentials: true
 }));
 
