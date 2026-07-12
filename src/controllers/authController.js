@@ -1,5 +1,5 @@
 const authService =
-require("../services/authService");
+    require("../services/authService");
 
 class AuthController {
 
@@ -53,7 +53,8 @@ class AuthController {
             const result =
                 await authService.login(
                     email,
-                    password
+                    password,
+                    req, res
                 );
 
             return res.json({
@@ -77,7 +78,42 @@ class AuthController {
 
     }
 
+    async refresh(req, res, next) {
+
+        try {
+
+            const result = await authService.refresh(req, res);
+
+            return res.json({
+                success: true,
+                message: "Token refreshed.",
+                data: result
+            });
+
+        } catch (error) {
+            next(error);
+        }
+
+    }
+
+    async logout(req, res, next) {
+
+        try {
+
+            await authService.logout(req, res);
+
+            return res.json({
+                success: true,
+                message: "Logged out successfully."
+            });
+
+        } catch (error) {
+            next(error);
+        }
+
+    }
+
 }
 
 module.exports =
-new AuthController();
+    new AuthController();

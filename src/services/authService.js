@@ -1,6 +1,9 @@
+const crypto = require("crypto");
 const userRepository = require("../repositories/userRepository");
+const refreshTokenRepository = require("../repositories/refreshTokenRepository");
+const { generateAccessToken, generateRefreshToken, verifyRefreshToken } = require("../utils/jwt");
+const { hashToken } = require("../utils/tokenHelper");
 const ApiError = require("../utils/ApiError");
-const generateToken = require("../utils/generateToken");
 
 class AuthService {
 
@@ -31,65 +34,140 @@ class AuthService {
                 password
             });
 
-        const token =
-            generateToken(user._id);
+        return {
+            id: user._id,
+            firstName: user.firstName,
+            lastName: user.lastName,
+            email: user.email,
+            role: user.role
+        };
+
+    }
+
+    async login(email, password, req, res) {
+
+        const user = await userRepository.findByEmail(email, true);
+
+        if (!user) throw new ApiError(401, "Invalid email or password.");
+
+        const matched = await user.comparePassword(password);
+
+        if (!matched) throw new ApiError(401, "Invalid email or password.");
+
+        if (user.isBlocked) throw new ApiError(403, "Account blocked.");
+
+        const accessToken = generateAccessToken(user);
+
+        const refreshToken = generateRefreshToken(user);
+
+        const hashedToken = hashToken(refreshToken);
+
+        await refreshTokenRepository.create({
+            user: user._id,
+            token: hashedToken,
+            expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+            ip: req.ip,
+            device: req.headers["user-agent"] || ""
+        });
+
+        res.cookie("refreshToken", refreshToken, this.cookieOptions);
+
+        user.lastLogin = new Date();
+
+        await user.save();
 
         return {
+            accessToken,
             user: {
                 id: user._id,
                 firstName: user.firstName,
                 lastName: user.lastName,
                 email: user.email,
                 role: user.role
-            },
-            token
+            }
         };
 
     }
 
-    async login(email, password) {
+    async refresh(req, res) {
 
-        const user =
-            await userRepository.findByEmail(
-                email,
-                true
-            );
+        const refreshToken = req.cookies.refreshToken;
 
-        if (!user) {
-            throw new Error("Invalid email or password.");
+        if (!refreshToken) throw new ApiError(401, "Unauthorized.");
+
+        let payload;
+
+        try {
+
+            payload = verifyRefreshToken(refreshToken);
+
+        } catch {
+
+            throw new ApiError(401, "Invalid refresh token.");
+
         }
 
-        if (user.isBlocked) {
-            throw new Error("Your account has been blocked.");
-        }
+        const hashedToken = hashToken(refreshToken);
 
-        const isMatch =
-            await user.comparePassword(password);
+        const tokenDoc = await refreshTokenRepository.findByToken(hashedToken);
 
-        if (!isMatch) {
-            throw new Error("Invalid email or password.");
-        }
+        if (!tokenDoc) throw new ApiError(401, "Session expired.");
 
-        await userRepository.updateLastLogin(user._id);
+        await refreshTokenRepository.deleteByToken(hashedToken);
 
-        const token =
-            generateToken(user._id);
+        const user = await userRepository.findById(payload.id);
+
+        if (!user) throw new ApiError(401, "User not found.");
+
+        const newAccessToken = generateAccessToken(user);
+
+        const newRefreshToken = generateRefreshToken(user);
+
+        const newHashedToken = hashToken(newRefreshToken);
+
+        await refreshTokenRepository.create({
+            user: user._id,
+            token: newHashedToken,
+            expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+            ip: req.ip,
+            device: req.headers["user-agent"] || ""
+        });
+
+        res.cookie("refreshToken", newRefreshToken, this.cookieOptions);
 
         return {
-
-            user: {
-                id: user._id,
-                firstName: user.firstName,
-                lastName: user.lastName,
-                email: user.email,
-                role: user.role
-            },
-
-            token
-
+            accessToken: newAccessToken
         };
 
     }
+
+    async logout(req, res) {
+
+        const refreshToken = req.cookies.refreshToken;
+
+        if (refreshToken) {
+
+            const hashedToken = hashToken(refreshToken);
+
+            await refreshTokenRepository.deleteByToken(hashedToken);
+
+        }
+
+        res.clearCookie("refreshToken", this.cookieOptions);
+
+    }
+
+    cookieOptions = {
+
+        httpOnly: true,
+
+        secure: process.env.NODE_ENV === "production",
+
+        sameSite: "lax",
+
+        maxAge: 7 * 24 * 60 * 60 * 1000
+
+    };
 
 }
 
