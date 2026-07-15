@@ -69,7 +69,7 @@ class AuthService {
             ip: req.ip,
             device: req.headers["user-agent"] || ""
         });
-
+        console.log(this.cookieOptions);
         res.cookie("refreshToken", refreshToken, this.cookieOptions);
 
         user.lastLogin = new Date();
