@@ -92,7 +92,12 @@ class AuthService {
     async refresh(req, res) {
 
         const refreshToken = req.cookies.refreshToken;
-        console.log("Cookies:", JSON.stringify(req.cookies,null,2));
+        console.log("Cookie Header:", req.headers.cookie);
+        console.log("Parsed Cookies:", req.cookies);
+        console.log("Origin:", req.headers.origin);
+        console.log("Cookie Header:", req.headers.cookie);
+        console.log("Parsed Cookies:", req.cookies);
+        console.log("NODE_ENV:", process.env.NODE_ENV);
         if (!refreshToken) throw new ApiError(401, "Unauthorized.");
 
         let payload;
