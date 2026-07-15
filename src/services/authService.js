@@ -4,6 +4,8 @@ const refreshTokenRepository = require("../repositories/refreshTokenRepository")
 const { generateAccessToken, generateRefreshToken, verifyRefreshToken } = require("../utils/jwt");
 const { hashToken } = require("../utils/tokenHelper");
 const ApiError = require("../utils/ApiError");
+const emailService = require("./emailService");
+const resetPasswordTemplate = require("../templates/resetPasswordTemplate");
 
 class AuthService {
 
@@ -176,6 +178,96 @@ class AuthService {
         maxAge: 7 * 24 * 60 * 60 * 1000,
         path: "/"
     };
+
+    async forgotPassword(email) {
+
+        const user = await userRepository.findByEmail(email);
+
+        /**
+         * Prevent email enumeration.
+         */
+        if (!user) {
+            return;
+        }
+
+        const resetToken = crypto
+            .randomBytes(32)
+            .toString("hex");
+
+        const hashedToken = crypto
+            .createHash("sha256")
+            .update(resetToken)
+            .digest("hex");
+
+        const expires =
+            new Date(Date.now() + 15 * 60 * 1000);
+
+        await userRepository.savePasswordResetToken(
+
+            user.email,
+
+            hashedToken,
+
+            expires
+
+        );
+
+        const resetLink =
+
+            `${process.env.CLIENT_URL}/reset-password/${resetToken}`;
+
+        await emailService.sendMail({
+
+            to: user.email,
+
+            subject: "Reset your PawPoint password",
+
+            html: resetPasswordTemplate(
+
+                user.firstName,
+
+                resetLink
+
+            )
+
+        });
+
+    }
+
+    async resetPassword(token, newPassword) {
+
+        const hashedToken = crypto
+            .createHash("sha256")
+            .update(token)
+            .digest("hex");
+
+        const user =
+            await userRepository.findByPasswordResetToken(hashedToken);
+
+        if (!user) {
+            throw new ApiError(
+                400,
+                "Invalid or expired reset link."
+            );
+        }
+
+        await userRepository.updatePassword(
+            user._id,
+            newPassword
+        );
+
+        await userRepository.clearPasswordReset(
+            user._id
+        );
+
+        /**
+         * Logout from all devices.
+         */
+        await refreshTokenRepository.deleteAllByUser(
+            user._id
+        );
+
+    }
 
 }
 

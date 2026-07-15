@@ -104,6 +104,20 @@ class UserRepository {
 
     }
 
+    async findByPasswordResetToken(token) {
+
+    return await User.findOne({
+
+        passwordResetToken: token,
+
+        passwordResetExpires: {
+            $gt: new Date()
+        }
+
+    }).select("+password");
+
+}
+
 }
 
 module.exports = new UserRepository();
