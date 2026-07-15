@@ -20,13 +20,20 @@ app.use(
     limit: "10mb"
   })
 );
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://pawpoint-pet-ecommerce.netlify.app"
+];
 app.use(cors({
+origin:(origin,callback)=>{
 
-    origin:
-        process.env.CLIENT_URL,
+if(!origin||allowedOrigins.includes(origin))
+return callback(null,true);
 
-    credentials: true
+callback(new Error("Not allowed by CORS"));
 
+},
+credentials:true
 }));
 app.use(cookieParser());
 app.use(helmet());
