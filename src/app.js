@@ -25,15 +25,15 @@ const allowedOrigins = [
   "https://pawpoint-pet-ecommerce.netlify.app"
 ];
 app.use(cors({
-origin:(origin,callback)=>{
+  origin: (origin, callback) => {
 
-if(!origin||allowedOrigins.includes(origin))
-return callback(null,true);
+    if (!origin || allowedOrigins.includes(origin))
+      return callback(null, true);
 
-callback(new Error("Not allowed by CORS"));
+    callback(new Error("Not allowed by CORS"));
 
-},
-credentials:true
+  },
+  credentials: true
 }));
 app.use(cookieParser());
 app.use(helmet());
