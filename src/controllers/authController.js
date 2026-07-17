@@ -113,6 +113,58 @@ class AuthController {
 
     }
 
+    async forgotPassword(req, res, next) {
+
+        try {
+            console.log(req.body);
+            await authService.forgotPassword(req.body.email);
+
+            return res.json({
+
+                success: true,
+
+                message:
+                    "If an account with that email exists, a password reset link has been sent."
+
+            });
+
+        }
+
+        catch (error) {
+
+            next(error);
+
+        }
+
+    }
+
+    async resetPassword(req, res, next) {
+
+        try {
+
+            const { password } = req.body;
+
+            await authService.resetPassword(
+                req.params.token,
+                password
+            );
+
+            return res.json({
+
+                success: true,
+
+                message: "Password reset successfully."
+
+            });
+
+        } catch (error) {
+
+            next(error);
+
+        }
+
+    }
+
 }
 
 

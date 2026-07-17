@@ -22,6 +22,14 @@ class RefreshTokenRepository {
         return await RefreshToken.deleteMany({ user: userId });
     }
 
+    async deleteAllByUser(userId) {
+
+        return await RefreshToken.deleteMany({
+            user: userId
+        });
+
+    }
+
 }
 
 module.exports = new RefreshTokenRepository();

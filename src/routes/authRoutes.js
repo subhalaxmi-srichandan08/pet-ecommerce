@@ -24,6 +24,13 @@ router.get("/mail-test", async (req, res) => {
     res.send("Mail Sent");
 
 });
-
+router.post(
+    "/forgot-password",
+    authController.forgotPassword
+);
+router.post(
+    "/reset-password/:token",
+    authController.resetPassword
+);
 module.exports=router;
 
