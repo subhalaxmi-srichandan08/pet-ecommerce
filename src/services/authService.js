@@ -214,59 +214,44 @@ class AuthService {
 
         const resetLink =
 
-            `${process.env.CLIENT_URL}/reset-password/${resetToken}`;
+            `${process.env.NODE_ENV=="development"?process.env.LOCAL_URL:process.env.CLIENT_URL}/reset-password/${resetToken}`;
 
         await emailService.sendMail({
-
             to: user.email,
-
             subject: "Reset your PawPoint password",
-
             html: resetPasswordTemplate(
-
                 user.firstName,
-
                 resetLink
-
             )
-
         });
-
     }
 
     async resetPassword(token, newPassword) {
-
         const hashedToken = crypto
             .createHash("sha256")
             .update(token)
             .digest("hex");
-
         const user =
             await userRepository.findByPasswordResetToken(hashedToken);
-
         if (!user) {
             throw new ApiError(
                 400,
                 "Invalid or expired reset link."
             );
         }
-
         await userRepository.updatePassword(
             user._id,
             newPassword
         );
-
         await userRepository.clearPasswordReset(
             user._id
         );
-
         /**
          * Logout from all devices.
          */
         await refreshTokenRepository.deleteAllByUser(
             user._id
         );
-
     }
 
 }
