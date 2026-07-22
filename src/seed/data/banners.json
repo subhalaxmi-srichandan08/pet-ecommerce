@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Healthy Pets Happy Life",
+    "subtitle": "Premium Nutrition For Dogs & Cats",
+    "description": "Discover premium food, toys, treats and accessories from the world's leading pet brands.",
+    "desktopImage": "https://placehold.co/1600x600/png",
+    "mobileImage": "https://placehold.co/1600x600/png",
+    "buttonText": "Shop Now",
+    "buttonLink": "/products",
+    "backgroundColor": "#FFF7ED",
+    "badge": "UP TO 30% OFF",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "title": "Everything Your Dog Needs",
+    "subtitle": "Food • Toys • Grooming • Beds",
+    "description": "Shop premium products for every stage of your dog's life.",
+    "desktopImage": "https://placehold.co/1600x600/png",
+    "mobileImage": "https://placehold.co/1600x600/png",
+    "buttonText": "Explore Dogs",
+    "buttonLink": "/products?pet=Dog",
+    "backgroundColor": "#EFF6FF",
+    "badge": "BEST SELLERS",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "title": "Purrfect Picks For Cats",
+    "subtitle": "Premium Care For Your Feline",
+    "description": "From healthy meals to cozy beds and fun toys, everything your cat deserves.",
+    "desktopImage": "https://placehold.co/1600x600/png",
+    "mobileImage": "https://placehold.co/1600x600/png",
+    "buttonText": "Explore Cats",
+    "buttonLink": "/products?pet=Cat",
+    "backgroundColor": "#FDF4FF",
+    "badge": "NEW ARRIVALS",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "title": "Trusted Brands, Amazing Prices",
+    "subtitle": "Royal Canin • Pedigree • Drools • Whiskas",
+    "description": "Shop authentic products from trusted global brands with exciting discounts.",
+    "desktopImage": "https://placehold.co/1600x600/png",
+    "mobileImage": "https://placehold.co/1600x600/png",
+    "buttonText": "View Brands",
+    "buttonLink": "/brands",
+    "backgroundColor": "#ECFDF5",
+    "badge": "LIMITED TIME",
+    "displayOrder": 4,
+    "isActive": true
+  }
+]

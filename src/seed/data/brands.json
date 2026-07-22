@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Royal Canin",
+    "slug": "royal-canin",
+    "logo": "",
+    "logoAlt": "Royal Canin",
+    "description": "Premium nutrition for dogs and cats.",
+    "website": "https://www.royalcanin.com",
+    "featured": true,
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "name": "Pedigree",
+    "slug": "pedigree",
+    "logo": "",
+    "logoAlt": "Pedigree",
+    "description": "Trusted dog food brand.",
+    "website": "https://www.pedigree.in",
+    "featured": true,
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "name": "Drools",
+    "slug": "drools",
+    "logo": "",
+    "logoAlt": "Drools",
+    "description": "Nutrition for pets.",
+    "website": "https://drools.com",
+    "featured": true,
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "name": "Whiskas",
+    "slug": "whiskas",
+    "logo": "",
+    "logoAlt": "Whiskas",
+    "description": "Cat nutrition products.",
+    "website": "https://www.whiskas.in",
+    "featured": true,
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "name": "Me-O",
+    "slug": "me-o",
+    "logo": "",
+    "logoAlt": "Me-O",
+    "description": "Cat food and treats.",
+    "website": "",
+    "featured": true,
+    "displayOrder": 5,
+    "isActive": true
+  },
+  {
+    "name": "Sheba",
+    "slug": "sheba",
+    "logo": "",
+    "logoAlt": "Sheba",
+    "description": "Premium cat food.",
+    "website": "",
+    "featured": false,
+    "displayOrder": 6,
+    "isActive": true
+  },
+  {
+    "name": "Temptations",
+    "slug": "temptations",
+    "logo": "",
+    "logoAlt": "Temptations",
+    "description": "Cat treats.",
+    "website": "",
+    "featured": false,
+    "displayOrder": 7,
+    "isActive": true
+  },
+  {
+    "name": "KONG",
+    "slug": "kong",
+    "logo": "",
+    "logoAlt": "KONG",
+    "description": "Dog toys.",
+    "website": "https://www.kongcompany.com",
+    "featured": true,
+    "displayOrder": 8,
+    "isActive": true
+  },
+  {
+    "name": "Trixie",
+    "slug": "trixie",
+    "logo": "",
+    "logoAlt": "Trixie",
+    "description": "Pet accessories.",
+    "website": "https://trixie.de",
+    "featured": true,
+    "displayOrder": 9,
+    "isActive": true
+  },
+  {
+    "name": "Himalaya",
+    "slug": "himalaya",
+    "logo": "",
+    "logoAlt": "Himalaya",
+    "description": "Pet wellness products.",
+    "website": "https://himalayawellness.in",
+    "featured": false,
+    "displayOrder": 10,
+    "isActive": true
+  }
+]

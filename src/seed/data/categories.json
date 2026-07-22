@@ -1,0 +1,145 @@
+[
+  {
+    "pet": "Dog",
+    "name": "Food",
+    "slug": "dog-food",
+    "image": "",
+    "icon": "",
+    "description": "Complete nutrition for dogs.",
+    "featured": true,
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "pet": "Dog",
+    "name": "Treats",
+    "slug": "dog-treats",
+    "image": "",
+    "icon": "",
+    "description": "Healthy dog treats.",
+    "featured": true,
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "pet": "Dog",
+    "name": "Toys",
+    "slug": "dog-toys",
+    "image": "",
+    "icon": "",
+    "description": "Interactive dog toys.",
+    "featured": true,
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "pet": "Dog",
+    "name": "Beds",
+    "slug": "dog-beds",
+    "image": "",
+    "icon": "",
+    "description": "Comfortable dog beds.",
+    "featured": true,
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "pet": "Dog",
+    "name": "Leashes",
+    "slug": "dog-leashes",
+    "image": "",
+    "icon": "",
+    "description": "Collars and leashes.",
+    "featured": false,
+    "displayOrder": 5,
+    "isActive": true
+  },
+  {
+    "pet": "Dog",
+    "name": "Bowls",
+    "slug": "dog-bowls",
+    "image": "",
+    "icon": "",
+    "description": "Food and water bowls.",
+    "featured": false,
+    "displayOrder": 6,
+    "isActive": true
+  },
+  {
+    "pet": "Dog",
+    "name": "Grooming",
+    "slug": "dog-grooming",
+    "image": "",
+    "icon": "",
+    "description": "Dog grooming essentials.",
+    "featured": false,
+    "displayOrder": 7,
+    "isActive": true
+  },
+  {
+    "pet": "Cat",
+    "name": "Food",
+    "slug": "cat-food",
+    "image": "",
+    "icon": "",
+    "description": "Complete nutrition for cats.",
+    "featured": true,
+    "displayOrder": 8,
+    "isActive": true
+  },
+  {
+    "pet": "Cat",
+    "name": "Treats",
+    "slug": "cat-treats",
+    "image": "",
+    "icon": "",
+    "description": "Healthy cat treats.",
+    "featured": true,
+    "displayOrder": 9,
+    "isActive": true
+  },
+  {
+    "pet": "Cat",
+    "name": "Toys",
+    "slug": "cat-toys",
+    "image": "",
+    "icon": "",
+    "description": "Interactive cat toys.",
+    "featured": true,
+    "displayOrder": 10,
+    "isActive": true
+  },
+  {
+    "pet": "Cat",
+    "name": "Beds",
+    "slug": "cat-beds",
+    "image": "",
+    "icon": "",
+    "description": "Comfortable cat beds.",
+    "featured": false,
+    "displayOrder": 11,
+    "isActive": true
+  },
+  {
+    "pet": "Cat",
+    "name": "Litter",
+    "slug": "cat-litter",
+    "image": "",
+    "icon": "",
+    "description": "Cat litter products.",
+    "featured": true,
+    "displayOrder": 12,
+    "isActive": true
+  },
+  {
+    "pet": "Cat",
+    "name": "Scratching Posts",
+    "slug": "cat-scratching-posts",
+    "image": "",
+    "icon": "",
+    "description": "Scratching posts and trees.",
+    "featured": false,
+    "displayOrder": 13,
+    "isActive": true
+  }
+]

@@ -1,18 +1,12 @@
 const mongoose = require("mongoose");
 
-const categorySchema = new mongoose.Schema(
+const brandSchema = new mongoose.Schema(
   {
-    pet: {
-      type: String,
-      enum: ["Dog", "Cat"],
-      required: true,
-      index: true,
-    },
-
     name: {
       type: String,
       required: true,
       trim: true,
+      unique: true,
       maxlength: 100,
     },
 
@@ -24,12 +18,12 @@ const categorySchema = new mongoose.Schema(
       unique: true,
     },
 
-    image: {
+    logo: {
       type: String,
       default: "",
     },
 
-    icon: {
+    logoAlt: {
       type: String,
       default: "",
     },
@@ -38,6 +32,11 @@ const categorySchema = new mongoose.Schema(
       type: String,
       default: "",
       maxlength: 500,
+    },
+
+    website: {
+      type: String,
+      default: "",
     },
 
     featured: {
@@ -60,16 +59,28 @@ const categorySchema = new mongoose.Schema(
   }
 );
 
-categorySchema.index({
-  pet: 1,
+brandSchema.index(
+  {
+    slug: 1,
+  },
+  {
+    unique: true,
+  }
+);
+
+brandSchema.index({
   featured: 1,
 });
 
-categorySchema.index({
-  slug: 1,
+brandSchema.index({
+  isActive: 1,
+});
+
+brandSchema.index({
+    name: 1
 });
 
 module.exports = mongoose.model(
-  "Category",
-  categorySchema
+  "Brand",
+  brandSchema
 );
