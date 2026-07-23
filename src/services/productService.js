@@ -4,14 +4,14 @@ const Category = require("../models/Category");
 
 class ProductService {
 
-    async getAllProducts(query) {
+  async getAllProducts(query) {
 
         const {
             page = 1,
             limit = 12,
             pet,
-            category,
             brand,
+            category,
             search,
             minPrice,
             maxPrice,
@@ -23,20 +23,37 @@ class ProductService {
             isDeleted: false
         };
 
-        if (pet)
+        if (pet) {
             filter.pet = pet;
-
-        if (category)
-            filter.category = category;
-
-        if (brand)
-            filter.brand = brand;
+        }
 
         if (search) {
-
             filter.$text = {
                 $search: search
             };
+        }
+
+        if (brand) {
+
+            const brandData = await Brand.findOne({
+                slug: brand
+            });
+
+            if (brandData) {
+                filter.brand = brandData._id;
+            }
+
+        }
+
+        if (category) {
+
+            const categoryData = await Category.findOne({
+                slug: category
+            });
+
+            if (categoryData) {
+                filter.category = categoryData._id;
+            }
 
         }
 
@@ -45,12 +62,10 @@ class ProductService {
             filter.discountPrice = {};
 
             if (minPrice)
-                filter.discountPrice.$gte =
-                    Number(minPrice);
+                filter.discountPrice.$gte = Number(minPrice);
 
             if (maxPrice)
-                filter.discountPrice.$lte =
-                    Number(maxPrice);
+                filter.discountPrice.$lte = Number(maxPrice);
 
         }
 
@@ -78,37 +93,32 @@ class ProductService {
                 };
                 break;
 
-            case "popular":
-                sortOption = {
-                    reviewCount: -1
-                };
-                break;
-
         }
 
         const skip =
-            (page - 1) * limit;
+            (Number(page) - 1) *
+            Number(limit);
 
-        const products =
-            await Product
-                .find(filter)
-                .populate(
-                    "brand",
-                    "name slug logo"
-                )
-                .populate(
-                    "category",
-                    "name slug pet"
-                )
-                .sort(sortOption)
-                .skip(skip)
-                .limit(Number(limit))
-                .lean();
+        const [products, total] =
+            await Promise.all([
 
-        const total =
-            await Product.countDocuments(
-                filter
-            );
+                Product.find(filter)
+                    .populate(
+                        "brand",
+                        "name slug logo"
+                    )
+                    .populate(
+                        "category",
+                        "name slug pet"
+                    )
+                    .sort(sortOption)
+                    .skip(skip)
+                    .limit(Number(limit))
+                    .lean(),
+
+                Product.countDocuments(filter)
+
+            ]);
 
         return {
 
@@ -116,15 +126,16 @@ class ProductService {
 
             pagination: {
 
-                total,
-
                 page: Number(page),
 
                 limit: Number(limit),
 
+                total,
+
                 totalPages:
                     Math.ceil(
-                        total / limit
+                        total /
+                        Number(limit)
                     )
 
             }
@@ -132,7 +143,6 @@ class ProductService {
         };
 
     }
-
     async getProductBySlug(slug) {
         const product = await Product.findOne({
             slug,

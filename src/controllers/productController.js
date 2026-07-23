@@ -8,22 +8,16 @@ class ProductController {
         try {
 
             const result =
-                await productService.getProductBySlug(
-                    req.params.slug
+                await productService.getAllProducts(
+                    req.query
                 );
 
-            if (!result) {
-
-                return res.status(404).json({
-                    success: false,
-                    message: "Product not found"
-                });
-
-            }
-
             res.status(200).json({
+
                 success: true,
-                data: result
+
+                ...result
+
             });
 
         } catch (error) {
@@ -33,7 +27,6 @@ class ProductController {
         }
 
     }
-
     async getProduct(req, res, next) {
 
         try {
