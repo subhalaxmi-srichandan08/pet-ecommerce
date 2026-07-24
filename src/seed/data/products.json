@@ -1,0 +1,3115 @@
+[
+  {
+    "sku": "PP-1000",
+    "slug": "royal-canin-dog-food-1",
+    "name": "Royal Canin Dog Food 1",
+    "shortDescription": "Premium dog food from Royal Canin.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Royal Canin",
+    "category": "dog-food",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLDIJw3Rlm32nkSf9UXBfvqQmvmLw010KMF1yeNOm_JA&s=10",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLDIJw3Rlm32nkSf9UXBfvqQmvmLw010KMF1yeNOm_JA&s=10"
+    ],
+    "price": 299,
+    "discountPrice": 283,
+    "stock": 76,
+    "rating": 4.8,
+    "reviewCount": 191,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Dog",
+      "Food",
+      "Royal Canin"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Royal Canin Dog Food 1",
+    "metaDescription": "Buy Royal Canin Dog Food 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1001",
+    "slug": "pedigree-dog-food-2",
+    "name": "Pedigree Dog Food 2",
+    "shortDescription": "Premium dog food from Pedigree.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Pedigree",
+    "category": "dog-food",
+    "thumbnail": "https://m.media-amazon.com/images/I/71wB4ulcl8L.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71wB4ulcl8L.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ6LQLSE3Ibwha-jBm7wVBRxiSXCnSMeEXkOxom0ZyvpRraVUWIxD_vSIL&s=10"
+    ],
+    "price": 999,
+    "discountPrice": 929,
+    "stock": 18,
+    "rating": 4.7,
+    "reviewCount": 405,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Dog",
+      "Food",
+      "Pedigree"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Pedigree Dog Food 2",
+    "metaDescription": "Buy Pedigree Dog Food 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1002",
+    "slug": "drools-dog-food-3",
+    "name": "Drools Dog Food 3",
+    "shortDescription": "Premium dog food from Drools.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Drools",
+    "category": "dog-food",
+    "thumbnail": "https://m.media-amazon.com/images/I/616v6VY8tlL._AC_UF1000,1000_QL80_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/616v6VY8tlL._AC_UF1000,1000_QL80_.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOaYtlsezv7aCbjQZ0EEEe3zhVJK3phqoctm_9OdM6_bLfY1O3OTNk9PW_&s=10"
+    ],
+    "price": 499,
+    "discountPrice": 384,
+    "stock": 17,
+    "rating": 4.5,
+    "reviewCount": 145,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Food",
+      "Drools"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Drools Dog Food 3",
+    "metaDescription": "Buy Drools Dog Food 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1003",
+    "slug": "kong-dog-food-4",
+    "name": "KONG Dog Food 4",
+    "shortDescription": "Premium dog food from KONG.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "KONG",
+    "category": "dog-food",
+    "thumbnail": "https://cdn11.bigcommerce.com/s-k3kxaf4rop/images/stencil/640w/products/2040/15734/25409bbd-16d2-45f0-a68c-fc1520887179_medium__24585.1784825617.jpg?c=1",
+    "images": [
+      "https://cdn11.bigcommerce.com/s-k3kxaf4rop/images/stencil/640w/products/2040/15734/25409bbd-16d2-45f0-a68c-fc1520887179_medium__24585.1784825617.jpg?c=1"
+    ],
+    "price": 699,
+    "discountPrice": 561,
+    "stock": 118,
+    "rating": 4.5,
+    "reviewCount": 293,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Food",
+      "KONG"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "KONG Dog Food 4",
+    "metaDescription": "Buy KONG Dog Food 4 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1004",
+    "slug": "trixie-dog-food-5",
+    "name": "Trixie Dog Food 5",
+    "shortDescription": "Premium dog food from Trixie.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Trixie",
+    "category": "dog-food",
+    "thumbnail": "https://www.pets-lifestyle.com/cdn/shop/files/DERMO_21.png?v=1778424077",
+    "images": [
+      "https://www.pets-lifestyle.com/cdn/shop/files/DERMO_21.png?v=1778424077",
+      "https://m.media-amazon.com/images/I/71KhB6hBmCL._AC_UF350,350_QL80_.jpg"
+    ],
+    "price": 699,
+    "discountPrice": 530,
+    "stock": 40,
+    "rating": 4.1,
+    "reviewCount": 297,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Food",
+      "Trixie"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Trixie Dog Food 5",
+    "metaDescription": "Buy Trixie Dog Food 5 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1005",
+    "slug": "himalaya-dog-food-6",
+    "name": "Himalaya Dog Food 6",
+    "shortDescription": "Premium dog food from Himalaya.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Himalaya",
+    "category": "dog-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 2499,
+    "discountPrice": 2023,
+    "stock": 80,
+    "rating": 4.3,
+    "reviewCount": 185,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Food",
+      "Himalaya"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Himalaya Dog Food 6",
+    "metaDescription": "Buy Himalaya Dog Food 6 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1006",
+    "slug": "royal-canin-dog-food-7",
+    "name": "Royal Canin Dog Food 7",
+    "shortDescription": "Premium dog food from Royal Canin.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Royal Canin",
+    "category": "dog-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 3499,
+    "discountPrice": 2653,
+    "stock": 60,
+    "rating": 4.8,
+    "reviewCount": 455,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Food",
+      "Royal Canin"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Royal Canin Dog Food 7",
+    "metaDescription": "Buy Royal Canin Dog Food 7 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1007",
+    "slug": "pedigree-dog-food-8",
+    "name": "Pedigree Dog Food 8",
+    "shortDescription": "Premium dog food from Pedigree.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Pedigree",
+    "category": "dog-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 299,
+    "discountPrice": 281,
+    "stock": 19,
+    "rating": 4.7,
+    "reviewCount": 127,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Food",
+      "Pedigree"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Pedigree Dog Food 8",
+    "metaDescription": "Buy Pedigree Dog Food 8 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1008",
+    "slug": "drools-dog-food-9",
+    "name": "Drools Dog Food 9",
+    "shortDescription": "Premium dog food from Drools.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Drools",
+    "category": "dog-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 299,
+    "discountPrice": 262,
+    "stock": 77,
+    "rating": 4.8,
+    "reviewCount": 284,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Food",
+      "Drools"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Drools Dog Food 9",
+    "metaDescription": "Buy Drools Dog Food 9 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1009",
+    "slug": "kong-dog-food-10",
+    "name": "KONG Dog Food 10",
+    "shortDescription": "Premium dog food from KONG.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "KONG",
+    "category": "dog-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 999,
+    "discountPrice": 898,
+    "stock": 17,
+    "rating": 4.7,
+    "reviewCount": 179,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Food",
+      "KONG"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "KONG Dog Food 10",
+    "metaDescription": "Buy KONG Dog Food 10 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1010",
+    "slug": "trixie-dog-food-11",
+    "name": "Trixie Dog Food 11",
+    "shortDescription": "Premium dog food from Trixie.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Trixie",
+    "category": "dog-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 299,
+    "discountPrice": 263,
+    "stock": 45,
+    "rating": 5.0,
+    "reviewCount": 351,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Food",
+      "Trixie"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Trixie Dog Food 11",
+    "metaDescription": "Buy Trixie Dog Food 11 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1011",
+    "slug": "himalaya-dog-food-12",
+    "name": "Himalaya Dog Food 12",
+    "shortDescription": "Premium dog food from Himalaya.",
+    "description": "High quality food for dogs.",
+    "pet": "Dog",
+    "brand": "Himalaya",
+    "category": "dog-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 3499,
+    "discountPrice": 3073,
+    "stock": 49,
+    "rating": 4.1,
+    "reviewCount": 472,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Dog",
+      "Food",
+      "Himalaya"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Himalaya Dog Food 12",
+    "metaDescription": "Buy Himalaya Dog Food 12 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1012",
+    "slug": "royal-canin-dog-treats-1",
+    "name": "Royal Canin Dog Treats 1",
+    "shortDescription": "Premium dog treats from Royal Canin.",
+    "description": "High quality treats for dogs.",
+    "pet": "Dog",
+    "brand": "Royal Canin",
+    "category": "dog-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 2499,
+    "discountPrice": 1937,
+    "stock": 99,
+    "rating": 4.2,
+    "reviewCount": 200,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Dog",
+      "Treats",
+      "Royal Canin"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Royal Canin Dog Treats 1",
+    "metaDescription": "Buy Royal Canin Dog Treats 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1013",
+    "slug": "pedigree-dog-treats-2",
+    "name": "Pedigree Dog Treats 2",
+    "shortDescription": "Premium dog treats from Pedigree.",
+    "description": "High quality treats for dogs.",
+    "pet": "Dog",
+    "brand": "Pedigree",
+    "category": "dog-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 7499,
+    "discountPrice": 6078,
+    "stock": 114,
+    "rating": 4.8,
+    "reviewCount": 333,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Dog",
+      "Treats",
+      "Pedigree"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Pedigree Dog Treats 2",
+    "metaDescription": "Buy Pedigree Dog Treats 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1014",
+    "slug": "drools-dog-treats-3",
+    "name": "Drools Dog Treats 3",
+    "shortDescription": "Premium dog treats from Drools.",
+    "description": "High quality treats for dogs.",
+    "pet": "Dog",
+    "brand": "Drools",
+    "category": "dog-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 299,
+    "discountPrice": 266,
+    "stock": 11,
+    "rating": 4.2,
+    "reviewCount": 147,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Treats",
+      "Drools"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Drools Dog Treats 3",
+    "metaDescription": "Buy Drools Dog Treats 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1015",
+    "slug": "kong-dog-treats-4",
+    "name": "KONG Dog Treats 4",
+    "shortDescription": "Premium dog treats from KONG.",
+    "description": "High quality treats for dogs.",
+    "pet": "Dog",
+    "brand": "KONG",
+    "category": "dog-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 5499,
+    "discountPrice": 4349,
+    "stock": 87,
+    "rating": 4.6,
+    "reviewCount": 354,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Treats",
+      "KONG"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "KONG Dog Treats 4",
+    "metaDescription": "Buy KONG Dog Treats 4 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1016",
+    "slug": "trixie-dog-treats-5",
+    "name": "Trixie Dog Treats 5",
+    "shortDescription": "Premium dog treats from Trixie.",
+    "description": "High quality treats for dogs.",
+    "pet": "Dog",
+    "brand": "Trixie",
+    "category": "dog-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 5499,
+    "discountPrice": 4475,
+    "stock": 65,
+    "rating": 4.7,
+    "reviewCount": 394,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Treats",
+      "Trixie"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Trixie Dog Treats 5",
+    "metaDescription": "Buy Trixie Dog Treats 5 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1017",
+    "slug": "himalaya-dog-treats-6",
+    "name": "Himalaya Dog Treats 6",
+    "shortDescription": "Premium dog treats from Himalaya.",
+    "description": "High quality treats for dogs.",
+    "pet": "Dog",
+    "brand": "Himalaya",
+    "category": "dog-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 999,
+    "discountPrice": 822,
+    "stock": 102,
+    "rating": 4.7,
+    "reviewCount": 475,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Dog",
+      "Treats",
+      "Himalaya"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Himalaya Dog Treats 6",
+    "metaDescription": "Buy Himalaya Dog Treats 6 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1018",
+    "slug": "royal-canin-dog-toys-1",
+    "name": "Royal Canin Dog Toys 1",
+    "shortDescription": "Premium dog toys from Royal Canin.",
+    "description": "High quality toys for dogs.",
+    "pet": "Dog",
+    "brand": "Royal Canin",
+    "category": "dog-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 1499,
+    "discountPrice": 1235,
+    "stock": 38,
+    "rating": 4.4,
+    "reviewCount": 32,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Dog",
+      "Toys",
+      "Royal Canin"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Royal Canin Dog Toys 1",
+    "metaDescription": "Buy Royal Canin Dog Toys 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1019",
+    "slug": "pedigree-dog-toys-2",
+    "name": "Pedigree Dog Toys 2",
+    "shortDescription": "Premium dog toys from Pedigree.",
+    "description": "High quality toys for dogs.",
+    "pet": "Dog",
+    "brand": "Pedigree",
+    "category": "dog-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 3499,
+    "discountPrice": 2955,
+    "stock": 42,
+    "rating": 4.5,
+    "reviewCount": 172,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Dog",
+      "Toys",
+      "Pedigree"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Pedigree Dog Toys 2",
+    "metaDescription": "Buy Pedigree Dog Toys 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1020",
+    "slug": "drools-dog-toys-3",
+    "name": "Drools Dog Toys 3",
+    "shortDescription": "Premium dog toys from Drools.",
+    "description": "High quality toys for dogs.",
+    "pet": "Dog",
+    "brand": "Drools",
+    "category": "dog-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 499,
+    "discountPrice": 472,
+    "stock": 67,
+    "rating": 4.3,
+    "reviewCount": 139,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Toys",
+      "Drools"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Drools Dog Toys 3",
+    "metaDescription": "Buy Drools Dog Toys 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1021",
+    "slug": "kong-dog-toys-4",
+    "name": "KONG Dog Toys 4",
+    "shortDescription": "Premium dog toys from KONG.",
+    "description": "High quality toys for dogs.",
+    "pet": "Dog",
+    "brand": "KONG",
+    "category": "dog-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 3499,
+    "discountPrice": 2841,
+    "stock": 81,
+    "rating": 4.7,
+    "reviewCount": 493,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Toys",
+      "KONG"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "KONG Dog Toys 4",
+    "metaDescription": "Buy KONG Dog Toys 4 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1022",
+    "slug": "trixie-dog-toys-5",
+    "name": "Trixie Dog Toys 5",
+    "shortDescription": "Premium dog toys from Trixie.",
+    "description": "High quality toys for dogs.",
+    "pet": "Dog",
+    "brand": "Trixie",
+    "category": "dog-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 699,
+    "discountPrice": 586,
+    "stock": 85,
+    "rating": 4.5,
+    "reviewCount": 174,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Toys",
+      "Trixie"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Trixie Dog Toys 5",
+    "metaDescription": "Buy Trixie Dog Toys 5 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1023",
+    "slug": "himalaya-dog-toys-6",
+    "name": "Himalaya Dog Toys 6",
+    "shortDescription": "Premium dog toys from Himalaya.",
+    "description": "High quality toys for dogs.",
+    "pet": "Dog",
+    "brand": "Himalaya",
+    "category": "dog-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 5499,
+    "discountPrice": 4392,
+    "stock": 95,
+    "rating": 4.4,
+    "reviewCount": 372,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Toys",
+      "Himalaya"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Himalaya Dog Toys 6",
+    "metaDescription": "Buy Himalaya Dog Toys 6 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1024",
+    "slug": "royal-canin-dog-toys-7",
+    "name": "Royal Canin Dog Toys 7",
+    "shortDescription": "Premium dog toys from Royal Canin.",
+    "description": "High quality toys for dogs.",
+    "pet": "Dog",
+    "brand": "Royal Canin",
+    "category": "dog-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 3499,
+    "discountPrice": 3219,
+    "stock": 89,
+    "rating": 4.3,
+    "reviewCount": 456,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Toys",
+      "Royal Canin"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Royal Canin Dog Toys 7",
+    "metaDescription": "Buy Royal Canin Dog Toys 7 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1025",
+    "slug": "pedigree-dog-toys-8",
+    "name": "Pedigree Dog Toys 8",
+    "shortDescription": "Premium dog toys from Pedigree.",
+    "description": "High quality toys for dogs.",
+    "pet": "Dog",
+    "brand": "Pedigree",
+    "category": "dog-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 5499,
+    "discountPrice": 5172,
+    "stock": 113,
+    "rating": 4.9,
+    "reviewCount": 498,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Dog",
+      "Toys",
+      "Pedigree"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Pedigree Dog Toys 8",
+    "metaDescription": "Buy Pedigree Dog Toys 8 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1026",
+    "slug": "royal-canin-dog-beds-1",
+    "name": "Royal Canin Dog Beds 1",
+    "shortDescription": "Premium dog beds from Royal Canin.",
+    "description": "High quality beds for dogs.",
+    "pet": "Dog",
+    "brand": "Royal Canin",
+    "category": "dog-beds",
+    "thumbnail": "",
+    "images": [],
+    "price": 499,
+    "discountPrice": 393,
+    "stock": 42,
+    "rating": 4.2,
+    "reviewCount": 345,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Dog",
+      "Beds",
+      "Royal Canin"
+    ],
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "Large"
+      },
+      {
+        "name": "Material",
+        "value": "Plush"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Royal Canin Dog Beds 1",
+    "metaDescription": "Buy Royal Canin Dog Beds 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1027",
+    "slug": "pedigree-dog-beds-2",
+    "name": "Pedigree Dog Beds 2",
+    "shortDescription": "Premium dog beds from Pedigree.",
+    "description": "High quality beds for dogs.",
+    "pet": "Dog",
+    "brand": "Pedigree",
+    "category": "dog-beds",
+    "thumbnail": "",
+    "images": [],
+    "price": 499,
+    "discountPrice": 472,
+    "stock": 62,
+    "rating": 4.7,
+    "reviewCount": 235,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Dog",
+      "Beds",
+      "Pedigree"
+    ],
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "Large"
+      },
+      {
+        "name": "Material",
+        "value": "Plush"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Pedigree Dog Beds 2",
+    "metaDescription": "Buy Pedigree Dog Beds 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1028",
+    "slug": "drools-dog-beds-3",
+    "name": "Drools Dog Beds 3",
+    "shortDescription": "Premium dog beds from Drools.",
+    "description": "High quality beds for dogs.",
+    "pet": "Dog",
+    "brand": "Drools",
+    "category": "dog-beds",
+    "thumbnail": "",
+    "images": [],
+    "price": 2499,
+    "discountPrice": 2288,
+    "stock": 105,
+    "rating": 4.9,
+    "reviewCount": 272,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Beds",
+      "Drools"
+    ],
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "Large"
+      },
+      {
+        "name": "Material",
+        "value": "Plush"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Drools Dog Beds 3",
+    "metaDescription": "Buy Drools Dog Beds 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1029",
+    "slug": "kong-dog-beds-4",
+    "name": "KONG Dog Beds 4",
+    "shortDescription": "Premium dog beds from KONG.",
+    "description": "High quality beds for dogs.",
+    "pet": "Dog",
+    "brand": "KONG",
+    "category": "dog-beds",
+    "thumbnail": "",
+    "images": [],
+    "price": 699,
+    "discountPrice": 595,
+    "stock": 16,
+    "rating": 4.7,
+    "reviewCount": 258,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Dog",
+      "Beds",
+      "KONG"
+    ],
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "Large"
+      },
+      {
+        "name": "Material",
+        "value": "Plush"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "KONG Dog Beds 4",
+    "metaDescription": "Buy KONG Dog Beds 4 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1030",
+    "slug": "royal-canin-dog-grooming-1",
+    "name": "Royal Canin Dog Grooming 1",
+    "shortDescription": "Premium dog grooming from Royal Canin.",
+    "description": "High quality grooming for dogs.",
+    "pet": "Dog",
+    "brand": "Royal Canin",
+    "category": "dog-grooming",
+    "thumbnail": "",
+    "images": [],
+    "price": 2499,
+    "discountPrice": 2071,
+    "stock": 83,
+    "rating": 4.9,
+    "reviewCount": 57,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Dog",
+      "Grooming",
+      "Royal Canin"
+    ],
+    "specifications": [
+      {
+        "name": "Type",
+        "value": "Shampoo"
+      },
+      {
+        "name": "Volume",
+        "value": "500ml"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Royal Canin Dog Grooming 1",
+    "metaDescription": "Buy Royal Canin Dog Grooming 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1031",
+    "slug": "pedigree-dog-grooming-2",
+    "name": "Pedigree Dog Grooming 2",
+    "shortDescription": "Premium dog grooming from Pedigree.",
+    "description": "High quality grooming for dogs.",
+    "pet": "Dog",
+    "brand": "Pedigree",
+    "category": "dog-grooming",
+    "thumbnail": "",
+    "images": [],
+    "price": 999,
+    "discountPrice": 850,
+    "stock": 61,
+    "rating": 4.7,
+    "reviewCount": 464,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Dog",
+      "Grooming",
+      "Pedigree"
+    ],
+    "specifications": [
+      {
+        "name": "Type",
+        "value": "Shampoo"
+      },
+      {
+        "name": "Volume",
+        "value": "500ml"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Pedigree Dog Grooming 2",
+    "metaDescription": "Buy Pedigree Dog Grooming 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1032",
+    "slug": "drools-dog-grooming-3",
+    "name": "Drools Dog Grooming 3",
+    "shortDescription": "Premium dog grooming from Drools.",
+    "description": "High quality grooming for dogs.",
+    "pet": "Dog",
+    "brand": "Drools",
+    "category": "dog-grooming",
+    "thumbnail": "",
+    "images": [],
+    "price": 1499,
+    "discountPrice": 1334,
+    "stock": 65,
+    "rating": 4.7,
+    "reviewCount": 181,
+    "labels": [],
+    "tags": [
+      "Dog",
+      "Grooming",
+      "Drools"
+    ],
+    "specifications": [
+      {
+        "name": "Type",
+        "value": "Shampoo"
+      },
+      {
+        "name": "Volume",
+        "value": "500ml"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Drools Dog Grooming 3",
+    "metaDescription": "Buy Drools Dog Grooming 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1033",
+    "slug": "kong-dog-grooming-4",
+    "name": "KONG Dog Grooming 4",
+    "shortDescription": "Premium dog grooming from KONG.",
+    "description": "High quality grooming for dogs.",
+    "pet": "Dog",
+    "brand": "KONG",
+    "category": "dog-grooming",
+    "thumbnail": "",
+    "images": [],
+    "price": 999,
+    "discountPrice": 897,
+    "stock": 73,
+    "rating": 4.2,
+    "reviewCount": 309,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Dog",
+      "Grooming",
+      "KONG"
+    ],
+    "specifications": [
+      {
+        "name": "Type",
+        "value": "Shampoo"
+      },
+      {
+        "name": "Volume",
+        "value": "500ml"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "KONG Dog Grooming 4",
+    "metaDescription": "Buy KONG Dog Grooming 4 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1034",
+    "slug": "royal-canin-dog-leashes-1",
+    "name": "Royal Canin Dog Leashes 1",
+    "shortDescription": "Premium dog leashes from Royal Canin.",
+    "description": "High quality leashes for dogs.",
+    "pet": "Dog",
+    "brand": "Royal Canin",
+    "category": "dog-leashes",
+    "thumbnail": "",
+    "images": [],
+    "price": 299,
+    "discountPrice": 234,
+    "stock": 81,
+    "rating": 4.8,
+    "reviewCount": 211,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Dog",
+      "Leashes",
+      "Royal Canin"
+    ],
+    "specifications": [
+      {
+        "name": "Length",
+        "value": "1.5m"
+      },
+      {
+        "name": "Material",
+        "value": "Nylon"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Royal Canin Dog Leashes 1",
+    "metaDescription": "Buy Royal Canin Dog Leashes 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1035",
+    "slug": "pedigree-dog-leashes-2",
+    "name": "Pedigree Dog Leashes 2",
+    "shortDescription": "Premium dog leashes from Pedigree.",
+    "description": "High quality leashes for dogs.",
+    "pet": "Dog",
+    "brand": "Pedigree",
+    "category": "dog-leashes",
+    "thumbnail": "",
+    "images": [],
+    "price": 7499,
+    "discountPrice": 6137,
+    "stock": 110,
+    "rating": 4.4,
+    "reviewCount": 352,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Dog",
+      "Leashes",
+      "Pedigree"
+    ],
+    "specifications": [
+      {
+        "name": "Length",
+        "value": "1.5m"
+      },
+      {
+        "name": "Material",
+        "value": "Nylon"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Pedigree Dog Leashes 2",
+    "metaDescription": "Buy Pedigree Dog Leashes 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1036",
+    "slug": "drools-dog-leashes-3",
+    "name": "Drools Dog Leashes 3",
+    "shortDescription": "Premium dog leashes from Drools.",
+    "description": "High quality leashes for dogs.",
+    "pet": "Dog",
+    "brand": "Drools",
+    "category": "dog-leashes",
+    "thumbnail": "",
+    "images": [],
+    "price": 499,
+    "discountPrice": 414,
+    "stock": 84,
+    "rating": 4.2,
+    "reviewCount": 438,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Dog",
+      "Leashes",
+      "Drools"
+    ],
+    "specifications": [
+      {
+        "name": "Length",
+        "value": "1.5m"
+      },
+      {
+        "name": "Material",
+        "value": "Nylon"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Drools Dog Leashes 3",
+    "metaDescription": "Buy Drools Dog Leashes 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1037",
+    "slug": "royal-canin-dog-bowls-1",
+    "name": "Royal Canin Dog Bowls 1",
+    "shortDescription": "Premium dog bowls from Royal Canin.",
+    "description": "High quality bowls for dogs.",
+    "pet": "Dog",
+    "brand": "Royal Canin",
+    "category": "dog-bowls",
+    "thumbnail": "",
+    "images": [],
+    "price": 699,
+    "discountPrice": 646,
+    "stock": 12,
+    "rating": 4.5,
+    "reviewCount": 345,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Dog",
+      "Bowls",
+      "Royal Canin"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Steel"
+      },
+      {
+        "name": "Capacity",
+        "value": "1L"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Royal Canin Dog Bowls 1",
+    "metaDescription": "Buy Royal Canin Dog Bowls 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1038",
+    "slug": "pedigree-dog-bowls-2",
+    "name": "Pedigree Dog Bowls 2",
+    "shortDescription": "Premium dog bowls from Pedigree.",
+    "description": "High quality bowls for dogs.",
+    "pet": "Dog",
+    "brand": "Pedigree",
+    "category": "dog-bowls",
+    "thumbnail": "",
+    "images": [],
+    "price": 699,
+    "discountPrice": 626,
+    "stock": 120,
+    "rating": 4.9,
+    "reviewCount": 323,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Dog",
+      "Bowls",
+      "Pedigree"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Steel"
+      },
+      {
+        "name": "Capacity",
+        "value": "1L"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Pedigree Dog Bowls 2",
+    "metaDescription": "Buy Pedigree Dog Bowls 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1039",
+    "slug": "drools-dog-bowls-3",
+    "name": "Drools Dog Bowls 3",
+    "shortDescription": "Premium dog bowls from Drools.",
+    "description": "High quality bowls for dogs.",
+    "pet": "Dog",
+    "brand": "Drools",
+    "category": "dog-bowls",
+    "thumbnail": "",
+    "images": [],
+    "price": 7499,
+    "discountPrice": 6095,
+    "stock": 35,
+    "rating": 4.2,
+    "reviewCount": 154,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Dog",
+      "Bowls",
+      "Drools"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Steel"
+      },
+      {
+        "name": "Capacity",
+        "value": "1L"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Drools Dog Bowls 3",
+    "metaDescription": "Buy Drools Dog Bowls 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1040",
+    "slug": "whiskas-cat-food-1",
+    "name": "Whiskas Cat Food 1",
+    "shortDescription": "Premium cat food from Whiskas.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Whiskas",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 299,
+    "discountPrice": 227,
+    "stock": 98,
+    "rating": 4.5,
+    "reviewCount": 80,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Cat",
+      "Food",
+      "Whiskas"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Whiskas Cat Food 1",
+    "metaDescription": "Buy Whiskas Cat Food 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1041",
+    "slug": "me-o-cat-food-2",
+    "name": "Me-O Cat Food 2",
+    "shortDescription": "Premium cat food from Me-O.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Me-O",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 699,
+    "discountPrice": 561,
+    "stock": 16,
+    "rating": 4.9,
+    "reviewCount": 492,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Cat",
+      "Food",
+      "Me-O"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Me-O Cat Food 2",
+    "metaDescription": "Buy Me-O Cat Food 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1042",
+    "slug": "sheba-cat-food-3",
+    "name": "Sheba Cat Food 3",
+    "shortDescription": "Premium cat food from Sheba.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Sheba",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 299,
+    "discountPrice": 259,
+    "stock": 24,
+    "rating": 4.3,
+    "reviewCount": 112,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Food",
+      "Sheba"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Sheba Cat Food 3",
+    "metaDescription": "Buy Sheba Cat Food 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1043",
+    "slug": "temptations-cat-food-4",
+    "name": "Temptations Cat Food 4",
+    "shortDescription": "Premium cat food from Temptations.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Temptations",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 3499,
+    "discountPrice": 2678,
+    "stock": 64,
+    "rating": 5.0,
+    "reviewCount": 454,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Food",
+      "Temptations"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Temptations Cat Food 4",
+    "metaDescription": "Buy Temptations Cat Food 4 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1044",
+    "slug": "trixie-cat-food-5",
+    "name": "Trixie Cat Food 5",
+    "shortDescription": "Premium cat food from Trixie.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Trixie",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 3499,
+    "discountPrice": 2856,
+    "stock": 102,
+    "rating": 4.9,
+    "reviewCount": 456,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Food",
+      "Trixie"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Trixie Cat Food 5",
+    "metaDescription": "Buy Trixie Cat Food 5 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1045",
+    "slug": "whiskas-cat-food-6",
+    "name": "Whiskas Cat Food 6",
+    "shortDescription": "Premium cat food from Whiskas.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Whiskas",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 999,
+    "discountPrice": 834,
+    "stock": 39,
+    "rating": 4.6,
+    "reviewCount": 144,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Food",
+      "Whiskas"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Whiskas Cat Food 6",
+    "metaDescription": "Buy Whiskas Cat Food 6 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1046",
+    "slug": "me-o-cat-food-7",
+    "name": "Me-O Cat Food 7",
+    "shortDescription": "Premium cat food from Me-O.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Me-O",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 699,
+    "discountPrice": 599,
+    "stock": 104,
+    "rating": 4.2,
+    "reviewCount": 348,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Food",
+      "Me-O"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Me-O Cat Food 7",
+    "metaDescription": "Buy Me-O Cat Food 7 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1047",
+    "slug": "sheba-cat-food-8",
+    "name": "Sheba Cat Food 8",
+    "shortDescription": "Premium cat food from Sheba.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Sheba",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 299,
+    "discountPrice": 268,
+    "stock": 43,
+    "rating": 4.2,
+    "reviewCount": 34,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Food",
+      "Sheba"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Sheba Cat Food 8",
+    "metaDescription": "Buy Sheba Cat Food 8 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1048",
+    "slug": "temptations-cat-food-9",
+    "name": "Temptations Cat Food 9",
+    "shortDescription": "Premium cat food from Temptations.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Temptations",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 7499,
+    "discountPrice": 5856,
+    "stock": 21,
+    "rating": 4.6,
+    "reviewCount": 218,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Food",
+      "Temptations"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Temptations Cat Food 9",
+    "metaDescription": "Buy Temptations Cat Food 9 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1049",
+    "slug": "trixie-cat-food-10",
+    "name": "Trixie Cat Food 10",
+    "shortDescription": "Premium cat food from Trixie.",
+    "description": "High quality food for cats.",
+    "pet": "Cat",
+    "brand": "Trixie",
+    "category": "cat-food",
+    "thumbnail": "",
+    "images": [],
+    "price": 3499,
+    "discountPrice": 2732,
+    "stock": 69,
+    "rating": 4.1,
+    "reviewCount": 277,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Cat",
+      "Food",
+      "Trixie"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "3kg"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Trixie Cat Food 10",
+    "metaDescription": "Buy Trixie Cat Food 10 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1050",
+    "slug": "whiskas-cat-treats-1",
+    "name": "Whiskas Cat Treats 1",
+    "shortDescription": "Premium cat treats from Whiskas.",
+    "description": "High quality treats for cats.",
+    "pet": "Cat",
+    "brand": "Whiskas",
+    "category": "cat-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 5499,
+    "discountPrice": 4308,
+    "stock": 16,
+    "rating": 4.5,
+    "reviewCount": 457,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Cat",
+      "Treats",
+      "Whiskas"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Whiskas Cat Treats 1",
+    "metaDescription": "Buy Whiskas Cat Treats 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1051",
+    "slug": "me-o-cat-treats-2",
+    "name": "Me-O Cat Treats 2",
+    "shortDescription": "Premium cat treats from Me-O.",
+    "description": "High quality treats for cats.",
+    "pet": "Cat",
+    "brand": "Me-O",
+    "category": "cat-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 999,
+    "discountPrice": 755,
+    "stock": 110,
+    "rating": 4.4,
+    "reviewCount": 154,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Cat",
+      "Treats",
+      "Me-O"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Me-O Cat Treats 2",
+    "metaDescription": "Buy Me-O Cat Treats 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1052",
+    "slug": "sheba-cat-treats-3",
+    "name": "Sheba Cat Treats 3",
+    "shortDescription": "Premium cat treats from Sheba.",
+    "description": "High quality treats for cats.",
+    "pet": "Cat",
+    "brand": "Sheba",
+    "category": "cat-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 7499,
+    "discountPrice": 6381,
+    "stock": 60,
+    "rating": 4.2,
+    "reviewCount": 77,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Treats",
+      "Sheba"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Sheba Cat Treats 3",
+    "metaDescription": "Buy Sheba Cat Treats 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1053",
+    "slug": "temptations-cat-treats-4",
+    "name": "Temptations Cat Treats 4",
+    "shortDescription": "Premium cat treats from Temptations.",
+    "description": "High quality treats for cats.",
+    "pet": "Cat",
+    "brand": "Temptations",
+    "category": "cat-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 499,
+    "discountPrice": 464,
+    "stock": 28,
+    "rating": 4.2,
+    "reviewCount": 440,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Treats",
+      "Temptations"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Temptations Cat Treats 4",
+    "metaDescription": "Buy Temptations Cat Treats 4 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1054",
+    "slug": "trixie-cat-treats-5",
+    "name": "Trixie Cat Treats 5",
+    "shortDescription": "Premium cat treats from Trixie.",
+    "description": "High quality treats for cats.",
+    "pet": "Cat",
+    "brand": "Trixie",
+    "category": "cat-treats",
+    "thumbnail": "",
+    "images": [],
+    "price": 699,
+    "discountPrice": 537,
+    "stock": 69,
+    "rating": 4.5,
+    "reviewCount": 434,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Cat",
+      "Treats",
+      "Trixie"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "300g"
+      },
+      {
+        "name": "Flavor",
+        "value": "Chicken"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Trixie Cat Treats 5",
+    "metaDescription": "Buy Trixie Cat Treats 5 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1055",
+    "slug": "whiskas-cat-toys-1",
+    "name": "Whiskas Cat Toys 1",
+    "shortDescription": "Premium cat toys from Whiskas.",
+    "description": "High quality toys for cats.",
+    "pet": "Cat",
+    "brand": "Whiskas",
+    "category": "cat-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 1499,
+    "discountPrice": 1344,
+    "stock": 59,
+    "rating": 5.0,
+    "reviewCount": 162,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Cat",
+      "Toys",
+      "Whiskas"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Whiskas Cat Toys 1",
+    "metaDescription": "Buy Whiskas Cat Toys 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1056",
+    "slug": "me-o-cat-toys-2",
+    "name": "Me-O Cat Toys 2",
+    "shortDescription": "Premium cat toys from Me-O.",
+    "description": "High quality toys for cats.",
+    "pet": "Cat",
+    "brand": "Me-O",
+    "category": "cat-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 699,
+    "discountPrice": 659,
+    "stock": 55,
+    "rating": 4.7,
+    "reviewCount": 446,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Cat",
+      "Toys",
+      "Me-O"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Me-O Cat Toys 2",
+    "metaDescription": "Buy Me-O Cat Toys 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1057",
+    "slug": "sheba-cat-toys-3",
+    "name": "Sheba Cat Toys 3",
+    "shortDescription": "Premium cat toys from Sheba.",
+    "description": "High quality toys for cats.",
+    "pet": "Cat",
+    "brand": "Sheba",
+    "category": "cat-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 7499,
+    "discountPrice": 6171,
+    "stock": 47,
+    "rating": 4.8,
+    "reviewCount": 486,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Toys",
+      "Sheba"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Sheba Cat Toys 3",
+    "metaDescription": "Buy Sheba Cat Toys 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1058",
+    "slug": "temptations-cat-toys-4",
+    "name": "Temptations Cat Toys 4",
+    "shortDescription": "Premium cat toys from Temptations.",
+    "description": "High quality toys for cats.",
+    "pet": "Cat",
+    "brand": "Temptations",
+    "category": "cat-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 999,
+    "discountPrice": 924,
+    "stock": 74,
+    "rating": 4.3,
+    "reviewCount": 270,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Toys",
+      "Temptations"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Temptations Cat Toys 4",
+    "metaDescription": "Buy Temptations Cat Toys 4 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1059",
+    "slug": "trixie-cat-toys-5",
+    "name": "Trixie Cat Toys 5",
+    "shortDescription": "Premium cat toys from Trixie.",
+    "description": "High quality toys for cats.",
+    "pet": "Cat",
+    "brand": "Trixie",
+    "category": "cat-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 1499,
+    "discountPrice": 1214,
+    "stock": 77,
+    "rating": 4.6,
+    "reviewCount": 133,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Toys",
+      "Trixie"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Trixie Cat Toys 5",
+    "metaDescription": "Buy Trixie Cat Toys 5 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1060",
+    "slug": "whiskas-cat-toys-6",
+    "name": "Whiskas Cat Toys 6",
+    "shortDescription": "Premium cat toys from Whiskas.",
+    "description": "High quality toys for cats.",
+    "pet": "Cat",
+    "brand": "Whiskas",
+    "category": "cat-toys",
+    "thumbnail": "",
+    "images": [],
+    "price": 1499,
+    "discountPrice": 1366,
+    "stock": 20,
+    "rating": 4.1,
+    "reviewCount": 125,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Cat",
+      "Toys",
+      "Whiskas"
+    ],
+    "specifications": [
+      {
+        "name": "Material",
+        "value": "Rubber"
+      },
+      {
+        "name": "Suitable For",
+        "value": "Adult"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Whiskas Cat Toys 6",
+    "metaDescription": "Buy Whiskas Cat Toys 6 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1061",
+    "slug": "whiskas-cat-beds-1",
+    "name": "Whiskas Cat Beds 1",
+    "shortDescription": "Premium cat beds from Whiskas.",
+    "description": "High quality beds for cats.",
+    "pet": "Cat",
+    "brand": "Whiskas",
+    "category": "cat-beds",
+    "thumbnail": "",
+    "images": [],
+    "price": 7499,
+    "discountPrice": 6854,
+    "stock": 83,
+    "rating": 4.8,
+    "reviewCount": 375,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Cat",
+      "Beds",
+      "Whiskas"
+    ],
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "Large"
+      },
+      {
+        "name": "Material",
+        "value": "Plush"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Whiskas Cat Beds 1",
+    "metaDescription": "Buy Whiskas Cat Beds 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1062",
+    "slug": "me-o-cat-beds-2",
+    "name": "Me-O Cat Beds 2",
+    "shortDescription": "Premium cat beds from Me-O.",
+    "description": "High quality beds for cats.",
+    "pet": "Cat",
+    "brand": "Me-O",
+    "category": "cat-beds",
+    "thumbnail": "",
+    "images": [],
+    "price": 999,
+    "discountPrice": 825,
+    "stock": 47,
+    "rating": 4.2,
+    "reviewCount": 111,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Cat",
+      "Beds",
+      "Me-O"
+    ],
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "Large"
+      },
+      {
+        "name": "Material",
+        "value": "Plush"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Me-O Cat Beds 2",
+    "metaDescription": "Buy Me-O Cat Beds 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1063",
+    "slug": "sheba-cat-beds-3",
+    "name": "Sheba Cat Beds 3",
+    "shortDescription": "Premium cat beds from Sheba.",
+    "description": "High quality beds for cats.",
+    "pet": "Cat",
+    "brand": "Sheba",
+    "category": "cat-beds",
+    "thumbnail": "",
+    "images": [],
+    "price": 7499,
+    "discountPrice": 5941,
+    "stock": 41,
+    "rating": 4.9,
+    "reviewCount": 366,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Cat",
+      "Beds",
+      "Sheba"
+    ],
+    "specifications": [
+      {
+        "name": "Size",
+        "value": "Large"
+      },
+      {
+        "name": "Material",
+        "value": "Plush"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Sheba Cat Beds 3",
+    "metaDescription": "Buy Sheba Cat Beds 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1064",
+    "slug": "whiskas-cat-litter-1",
+    "name": "Whiskas Cat Litter 1",
+    "shortDescription": "Premium cat litter from Whiskas.",
+    "description": "High quality litter for cats.",
+    "pet": "Cat",
+    "brand": "Whiskas",
+    "category": "cat-litter",
+    "thumbnail": "",
+    "images": [],
+    "price": 3499,
+    "discountPrice": 2804,
+    "stock": 83,
+    "rating": 4.1,
+    "reviewCount": 201,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Cat",
+      "Litter",
+      "Whiskas"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "10kg"
+      },
+      {
+        "name": "Type",
+        "value": "Clumping"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Whiskas Cat Litter 1",
+    "metaDescription": "Buy Whiskas Cat Litter 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1065",
+    "slug": "me-o-cat-litter-2",
+    "name": "Me-O Cat Litter 2",
+    "shortDescription": "Premium cat litter from Me-O.",
+    "description": "High quality litter for cats.",
+    "pet": "Cat",
+    "brand": "Me-O",
+    "category": "cat-litter",
+    "thumbnail": "",
+    "images": [],
+    "price": 1499,
+    "discountPrice": 1412,
+    "stock": 112,
+    "rating": 4.7,
+    "reviewCount": 403,
+    "labels": [
+      "FEATURED"
+    ],
+    "tags": [
+      "Cat",
+      "Litter",
+      "Me-O"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "10kg"
+      },
+      {
+        "name": "Type",
+        "value": "Clumping"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Me-O Cat Litter 2",
+    "metaDescription": "Buy Me-O Cat Litter 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1066",
+    "slug": "sheba-cat-litter-3",
+    "name": "Sheba Cat Litter 3",
+    "shortDescription": "Premium cat litter from Sheba.",
+    "description": "High quality litter for cats.",
+    "pet": "Cat",
+    "brand": "Sheba",
+    "category": "cat-litter",
+    "thumbnail": "",
+    "images": [],
+    "price": 1499,
+    "discountPrice": 1311,
+    "stock": 60,
+    "rating": 4.4,
+    "reviewCount": 190,
+    "labels": [],
+    "tags": [
+      "Cat",
+      "Litter",
+      "Sheba"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "10kg"
+      },
+      {
+        "name": "Type",
+        "value": "Clumping"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Sheba Cat Litter 3",
+    "metaDescription": "Buy Sheba Cat Litter 3 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1067",
+    "slug": "temptations-cat-litter-4",
+    "name": "Temptations Cat Litter 4",
+    "shortDescription": "Premium cat litter from Temptations.",
+    "description": "High quality litter for cats.",
+    "pet": "Cat",
+    "brand": "Temptations",
+    "category": "cat-litter",
+    "thumbnail": "",
+    "images": [],
+    "price": 2499,
+    "discountPrice": 2285,
+    "stock": 42,
+    "rating": 4.2,
+    "reviewCount": 424,
+    "labels": [
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Cat",
+      "Litter",
+      "Temptations"
+    ],
+    "specifications": [
+      {
+        "name": "Weight",
+        "value": "10kg"
+      },
+      {
+        "name": "Type",
+        "value": "Clumping"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Temptations Cat Litter 4",
+    "metaDescription": "Buy Temptations Cat Litter 4 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1068",
+    "slug": "whiskas-cat-scratching-posts-1",
+    "name": "Whiskas Cat Scratching Posts 1",
+    "shortDescription": "Premium cat scratching posts from Whiskas.",
+    "description": "High quality scratching posts for cats.",
+    "pet": "Cat",
+    "brand": "Whiskas",
+    "category": "cat-scratching-posts",
+    "thumbnail": "",
+    "images": [],
+    "price": 7499,
+    "discountPrice": 5891,
+    "stock": 94,
+    "rating": 4.4,
+    "reviewCount": 197,
+    "labels": [
+      "FEATURED",
+      "BEST_SELLER"
+    ],
+    "tags": [
+      "Cat",
+      "Scratching Posts",
+      "Whiskas"
+    ],
+    "specifications": [
+      {
+        "name": "Height",
+        "value": "60cm"
+      },
+      {
+        "name": "Material",
+        "value": "Sisal"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Whiskas Cat Scratching Posts 1",
+    "metaDescription": "Buy Whiskas Cat Scratching Posts 1 online.",
+    "isActive": true,
+    "isDeleted": false
+  },
+  {
+    "sku": "PP-1069",
+    "slug": "me-o-cat-scratching-posts-2",
+    "name": "Me-O Cat Scratching Posts 2",
+    "shortDescription": "Premium cat scratching posts from Me-O.",
+    "description": "High quality scratching posts for cats.",
+    "pet": "Cat",
+    "brand": "Me-O",
+    "category": "cat-scratching-posts",
+    "thumbnail": "",
+    "images": [],
+    "price": 499,
+    "discountPrice": 451,
+    "stock": 51,
+    "rating": 4.3,
+    "reviewCount": 26,
+    "labels": [
+      "FEATURED",
+      "NEW_ARRIVAL"
+    ],
+    "tags": [
+      "Cat",
+      "Scratching Posts",
+      "Me-O"
+    ],
+    "specifications": [
+      {
+        "name": "Height",
+        "value": "60cm"
+      },
+      {
+        "name": "Material",
+        "value": "Sisal"
+      }
+    ],
+    "shipping": {
+      "weight": 1,
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "metaTitle": "Me-O Cat Scratching Posts 2",
+    "metaDescription": "Buy Me-O Cat Scratching Posts 2 online.",
+    "isActive": true,
+    "isDeleted": false
+  }
+]

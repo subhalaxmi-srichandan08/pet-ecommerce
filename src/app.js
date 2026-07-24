@@ -14,6 +14,15 @@ const authRoutes =
   require(
     "./routes/authRoutes"
   );
+  const productRoutes =
+require("./routes/productRoutes");
+const brandRoutes =
+require("./routes/brandRoutes");
+const categoryRoutes =
+require("./routes/categoryRoutes");
+const bannerRoutes =
+require("./routes/bannerRoutes");
+const cartRoutes = require("./routes/cartRoutes");
 const app = express();
 app.use(
   express.json({
@@ -42,7 +51,7 @@ app.use(
   rateLimit({
     windowMs:
       15 * 60 * 1000,
-    max: 100
+    max: 1000
   })
 );
 
@@ -60,6 +69,28 @@ app.use(
   "/api/auth",
   authRoutes
 );
+app.use(
+    "/api/products",
+    productRoutes
+);
+app.use(
+    "/api/brands",
+    brandRoutes
+);
+app.use(
+    "/api/categories",
+    categoryRoutes
+);
+app.use(
+    "/api/banners",
+    bannerRoutes
+);
+app.use("/api/auth", authRoutes);
+app.use("/api/products", productRoutes);
+app.use("/api/brands", brandRoutes);
+app.use("/api/categories", categoryRoutes);
+app.use("/api/banners", bannerRoutes);
+app.use("/api/cart", cartRoutes);
 
 
 
