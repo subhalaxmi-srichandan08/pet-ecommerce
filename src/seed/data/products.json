@@ -8,8 +8,10 @@
     "pet": "Dog",
     "brand": "Royal Canin",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLDIJw3Rlm32nkSf9UXBfvqQmvmLw010KMF1yeNOm_JA&s=10",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLDIJw3Rlm32nkSf9UXBfvqQmvmLw010KMF1yeNOm_JA&s=10"
+    ],
     "price": 299,
     "discountPrice": 283,
     "stock": 76,
@@ -54,8 +56,11 @@
     "pet": "Dog",
     "brand": "Pedigree",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://m.media-amazon.com/images/I/71wB4ulcl8L.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71wB4ulcl8L.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ6LQLSE3Ibwha-jBm7wVBRxiSXCnSMeEXkOxom0ZyvpRraVUWIxD_vSIL&s=10"
+    ],
     "price": 999,
     "discountPrice": 929,
     "stock": 18,
@@ -99,8 +104,11 @@
     "pet": "Dog",
     "brand": "Drools",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://m.media-amazon.com/images/I/616v6VY8tlL._AC_UF1000,1000_QL80_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/616v6VY8tlL._AC_UF1000,1000_QL80_.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOaYtlsezv7aCbjQZ0EEEe3zhVJK3phqoctm_9OdM6_bLfY1O3OTNk9PW_&s=10"
+    ],
     "price": 499,
     "discountPrice": 384,
     "stock": 17,
@@ -142,8 +150,10 @@
     "pet": "Dog",
     "brand": "KONG",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://cdn11.bigcommerce.com/s-k3kxaf4rop/images/stencil/640w/products/2040/15734/25409bbd-16d2-45f0-a68c-fc1520887179_medium__24585.1784825617.jpg?c=1",
+    "images": [
+      "https://cdn11.bigcommerce.com/s-k3kxaf4rop/images/stencil/640w/products/2040/15734/25409bbd-16d2-45f0-a68c-fc1520887179_medium__24585.1784825617.jpg?c=1"
+    ],
     "price": 699,
     "discountPrice": 561,
     "stock": 118,
@@ -185,8 +195,11 @@
     "pet": "Dog",
     "brand": "Trixie",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://www.pets-lifestyle.com/cdn/shop/files/DERMO_21.png?v=1778424077",
+    "images": [
+      "https://www.pets-lifestyle.com/cdn/shop/files/DERMO_21.png?v=1778424077",
+      "https://m.media-amazon.com/images/I/71KhB6hBmCL._AC_UF350,350_QL80_.jpg"
+    ],
     "price": 699,
     "discountPrice": 530,
     "stock": 40,

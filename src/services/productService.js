@@ -143,6 +143,7 @@ class ProductService {
         };
 
     }
+
     async getProductBySlug(slug) {
         const product = await Product.findOne({
             slug,
@@ -164,7 +165,7 @@ class ProductService {
         })
             .limit(8)
             .select(
-                "name slug thumbnail price discountPrice rating reviewCount"
+                "name slug thumbnail price discountPrice rating reviewCount brand labels"
             )
             .lean();
 
