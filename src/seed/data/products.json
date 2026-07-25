@@ -241,8 +241,11 @@
     "pet": "Dog",
     "brand": "Himalaya",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://petindiaonline3.s3.ap-south-1.amazonaws.com/upload_product/1582_himalayaadult.jpg",
+    "images": [
+      "https://www.loyalpetzone.com/wp-content/uploads/2019/06/himalaya-healthy-puppy-food.jpg",
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/pet-food/v/j/j/-original-imahf3gre2w6kgyh.jpeg?q=90"
+    ],
     "price": 2499,
     "discountPrice": 2023,
     "stock": 80,
@@ -284,8 +287,10 @@
     "pet": "Dog",
     "brand": "Royal Canin",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdDbty0H3QOdJcQZ_z1WXJa_UbmHkpXSFtBpToE9Tm7jbYy0PfdlXohRm&s=10",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw2a9tNGTxIuymg6-NRoNo9l_CSiQzRvWlLLQH2iHQYBrTMXDXkUVUX_s&s=10"
+    ],
     "price": 3499,
     "discountPrice": 2653,
     "stock": 60,
@@ -327,8 +332,11 @@
     "pet": "Dog",
     "brand": "Pedigree",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://m.media-amazon.com/images/I/71uNU9QYiIL._AC_UF1000,1000_QL80_.jpg",
+    "images": [
+      "https://www.loyalpetzone.com/wp-content/uploads/2022/05/pedigree-chicken-veg-adult.jpg",
+      "https://www.pedigree.in/files/styles/webp/public/2025-07/_0003_1007_CC25_web-banners_4_640x480.jpg.webp?VersionId=o9QG9bENJO2fcGs3TsjfrO54BwsE.mc1&itok=LAUQDOqP"
+    ],
     "price": 299,
     "discountPrice": 281,
     "stock": 19,
@@ -370,8 +378,10 @@
     "pet": "Dog",
     "brand": "Drools",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://www.pinkpaws.co.in/rest/uploads/products/15380/00995095-70a5-48de-a565-0353277de4e3-.jpg",
+    "images": [
+      "https://petcentral.co.in/cdn/shop/products/drools-adult-wet-dog-food-real-chicken-and-chicken-liver-chunks-in-gravy-24-pouches-24-x-150g-871948.jpg?v=1756261071"
+    ],
     "price": 299,
     "discountPrice": 262,
     "stock": 77,
@@ -413,8 +423,10 @@
     "pet": "Dog",
     "brand": "KONG",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://perro-media.b-cdn.net/media/bf/98/49/1743516870/KONG-Ziggies-Enhanced-Puppy-Zahnpflegesnack-fuer-Welpen-small-mit-Verpackung-glutenfrei-zahnsteinfrei-56-36189.jpg?ts=1743584928",
+    "images": [
+      "https://cdn11.bigcommerce.com/s-k3kxaf4rop/images/stencil/500x659/products/2039/17496/79d9c64f-3cd9-49f9-885c-5ee3bb6ef0f7_medium__50081.1784897581.jpg?c=1"
+    ],
     "price": 999,
     "discountPrice": 898,
     "stock": 17,
@@ -456,8 +468,10 @@
     "pet": "Dog",
     "brand": "Trixie",
     "category": "dog-food",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://www.pinkpaws.co.in/rest/uploads/products/15380/00995095-70a5-48de-a565-0353277de4e3-.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/81kltEFMYcL.jpg"
+    ],
     "price": 299,
     "discountPrice": 263,
     "stock": 45,
@@ -2626,14 +2640,18 @@
     "pet": "Cat",
     "brand": "Trixie",
     "category": "cat-toys",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://assets.myntassets.com/h_1440,q_75,w_1080/v1/assets/images/29874053/2024/6/1/c8980f44-bd5a-476a-912b-e2296ca340171717218387053ActivityToysandGames1.jpg",
+    "images": [
+      "https://cdn.abicart.com/shop/images/204818825-origpic-2087f8/9049/art49/h8825/latexlangisXL2.jpg"
+    ],
     "price": 1499,
     "discountPrice": 1214,
     "stock": 77,
     "rating": 4.6,
     "reviewCount": 133,
-    "labels": [],
+    "labels": [
+      
+    ],
     "tags": [
       "Cat",
       "Toys",
@@ -2669,8 +2687,11 @@
     "pet": "Cat",
     "brand": "Whiskas",
     "category": "cat-toys",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://m.media-amazon.com/images/I/71QCyVOe0AL._AC_UF350,350_QL80_.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61UqsPR+MOL._AC_UF350,350_QL80_.jpg",
+      "https://image.chewy.com/catalog/general/images/moe/068cc314-cf9a-794a-8000-7874e462569d._AC_SL248_V1_.jpg"
+    ],
     "price": 1499,
     "discountPrice": 1366,
     "stock": 20,
@@ -2714,8 +2735,10 @@
     "pet": "Cat",
     "brand": "Whiskas",
     "category": "cat-beds",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://images.meesho.com/images/products/322288092/uwpsz_512.jpg",
+    "images": [
+      "https://m.media-amazon.com/images/I/71HA0yKcWIL.jpg"
+    ],
     "price": 7499,
     "discountPrice": 6854,
     "stock": 83,
@@ -2760,8 +2783,10 @@
     "pet": "Cat",
     "brand": "Me-O",
     "category": "cat-beds",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://m.media-amazon.com/images/I/51LArymZGJL._AC_UF1000,1000_QL80_.jpg",
+    "images": [
+      "https://s.alicdn.com/@sc04/kf/H331dde9b4e9b4e90aab54c4a5e4881311.jpg"
+    ],
     "price": 999,
     "discountPrice": 825,
     "stock": 47,
@@ -2805,8 +2830,10 @@
     "pet": "Cat",
     "brand": "Sheba",
     "category": "cat-beds",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://rukminim2.flixcart.com/image/480/640/xif0q/pet-bed/p/c/6/l-cat-bed-cave-for-indoor-suitable-for-cat-dome-bed-hideaway-bed-original-imahhx7wgg3jme47.jpeg?q=20",
+    "images": [
+      "https://i5.walmartimages.com/asr/1cd2134f-80e9-4589-8763-79ef4da3e8ee.e1ccd630f5ce6140ff5afc5dee18ab6e.jpeg"
+    ],
     "price": 7499,
     "discountPrice": 5941,
     "stock": 41,
@@ -2850,8 +2877,10 @@
     "pet": "Cat",
     "brand": "Whiskas",
     "category": "cat-litter",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://rukminim2.flixcart.com/image/480/640/xif0q/pet-bowl-bottle/3/i/i/cat-liiter-box-tray-with-free-scooper-super-build-quality-semi-original-imahdjeujqefzcmc.jpeg?q=90",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzK8tZ-WHUFqlLYpEvb6gnVax01oloj_3Ge3d6e-T-K4YY3g3vQWH8jJM&s=10"
+    ],
     "price": 3499,
     "discountPrice": 2804,
     "stock": 83,
@@ -2896,8 +2925,10 @@
     "pet": "Cat",
     "brand": "Me-O",
     "category": "cat-litter",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://www.loyalpetzone.com/wp-content/uploads/2023/03/cat-exclusive-cat-litter-india.jpg",
+    "images": [
+      "https://cdn.zeptonow.com/production/tr:w-640,ar-1920-1224,pr-true,f-auto,q-40/cms/l4_attribute_value/a1295cef-be5e-4267-8138-a0a6e9fe623e.jpg"
+    ],
     "price": 1499,
     "discountPrice": 1412,
     "stock": 112,
@@ -2941,8 +2972,8 @@
     "pet": "Cat",
     "brand": "Sheba",
     "category": "cat-litter",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://thesmartpet.in/cdn/shop/files/smartpet_urinemonitorcatlitter.webp?v=1781253041&width=1024",
+    "images": ["https://m.media-amazon.com/images/I/71oUncxrocL._AC_UF350,350_QL80_.jpg"],
     "price": 1499,
     "discountPrice": 1311,
     "stock": 60,
@@ -2984,8 +3015,10 @@
     "pet": "Cat",
     "brand": "Temptations",
     "category": "cat-litter",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwNuy_MTCBXC17hbWQKy2GLmncqkTFNhIXoAtLf-F9lA&s=10",
+    "images": [
+      "https://media.architecturaldigest.com/photos/611be1a78204581e73d064d4/16:9/w_2560%2Cc_limit/GettyImages-10100199.jpg"
+    ],
     "price": 2499,
     "discountPrice": 2285,
     "stock": 42,
@@ -3029,8 +3062,10 @@
     "pet": "Cat",
     "brand": "Whiskas",
     "category": "cat-scratching-posts",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://pioneerpet.com/wp-content/uploads/2013/03/AZ_Scratching-Post_2023-1500x1500_01.jpg",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF8f4ejrasvkbEFayMp5yv3cgHxzFyH_f-wCI4mLuYbQKSWmosVmi1mSo&s=10"
+    ],
     "price": 7499,
     "discountPrice": 5891,
     "stock": 94,
@@ -3075,8 +3110,10 @@
     "pet": "Cat",
     "brand": "Me-O",
     "category": "cat-scratching-posts",
-    "thumbnail": "",
-    "images": [],
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdyreAD_BZFCuPTDU2REEM95GbCuL2kOZu1LbYCshHOQ&s=10",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0KamO_YrO9ffmkf7sUcIhKqPG4zmzzOTPVVXaRNVitg&s=10"
+    ],
     "price": 499,
     "discountPrice": 451,
     "stock": 51,

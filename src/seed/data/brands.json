@@ -2,7 +2,7 @@
   {
     "name": "Royal Canin",
     "slug": "royal-canin",
-    "logo": "",
+    "logo": "https://cdn.royalcanin-weshare-online.io/lSEua2QBaxEApS7L_vuK/v8/logo-rc-dms-2016-c",
     "logoAlt": "Royal Canin",
     "description": "Premium nutrition for dogs and cats.",
     "website": "https://www.royalcanin.com",
@@ -13,7 +13,7 @@
   {
     "name": "Pedigree",
     "slug": "pedigree",
-    "logo": "",
+    "logo": "https://1000logos.net/wp-content/uploads/2023/03/Pedigree-logo.jpg",
     "logoAlt": "Pedigree",
     "description": "Trusted dog food brand.",
     "website": "https://www.pedigree.in",
@@ -24,7 +24,7 @@
   {
     "name": "Drools",
     "slug": "drools",
-    "logo": "",
+    "logo": "https://pbs.twimg.com/ext_tw_video_thumb/1388821414593978371/pu/img/zurlCEmYDY05kPmE.jpg",
     "logoAlt": "Drools",
     "description": "Nutrition for pets.",
     "website": "https://drools.com",
@@ -35,7 +35,7 @@
   {
     "name": "Whiskas",
     "slug": "whiskas",
-    "logo": "",
+    "logo": "https://cdn.prod.website-files.com/5fb85f26f126ce08d792d2d9/65e60654ac1dfcfe74a13b74_after_whiskas.jpg",
     "logoAlt": "Whiskas",
     "description": "Cat nutrition products.",
     "website": "https://www.whiskas.in",
@@ -46,7 +46,7 @@
   {
     "name": "Me-O",
     "slug": "me-o",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yCjOaTwQlWPRdL0pWWundrImH_k8SZntoBuE3yvs8NCl_SwHEMGsTyww&s=10",
     "logoAlt": "Me-O",
     "description": "Cat food and treats.",
     "website": "",
@@ -57,7 +57,7 @@
   {
     "name": "Sheba",
     "slug": "sheba",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS6BAX6pNVK4Fp-AZiK7MyeC_yLJoSQrEkE15HypAFeON1PvojDLwGspo&s=10",
     "logoAlt": "Sheba",
     "description": "Premium cat food.",
     "website": "",
@@ -68,7 +68,7 @@
   {
     "name": "Temptations",
     "slug": "temptations",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaHADVxiFyuCmJdSy4PovsltRAp3qESdweVWYlZMNw_1oJbADbuoB1cE&s=10",
     "logoAlt": "Temptations",
     "description": "Cat treats.",
     "website": "",
@@ -79,7 +79,7 @@
   {
     "name": "KONG",
     "slug": "kong",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUwlYr7wzOe43KcWd70f1bMa3Bt-XRK4FHO53r_tw3jopiswUmft4F4MU&s=10",
     "logoAlt": "KONG",
     "description": "Dog toys.",
     "website": "https://www.kongcompany.com",
@@ -90,7 +90,7 @@
   {
     "name": "Trixie",
     "slug": "trixie",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPidAujo8cIQCKkPbXz5qC5QN0-TVSg9CpIuuK4laJsc-ZsoqsFfsd5jzz&s=10",
     "logoAlt": "Trixie",
     "description": "Pet accessories.",
     "website": "https://trixie.de",
@@ -101,7 +101,7 @@
   {
     "name": "Himalaya",
     "slug": "himalaya",
-    "logo": "",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoGjY4vIo4_p0EOEGI0PLEYLol2tAzIorI5EqrZwXcvquJMApxpXy2p2sV&s=10",
     "logoAlt": "Himalaya",
     "description": "Pet wellness products.",
     "website": "https://himalayawellness.in",
