@@ -4,7 +4,7 @@ const router = express.Router();
 
 const productController =
     require("../controllers/productController");
-    
+
 
 router.get(
     "/",
@@ -24,6 +24,11 @@ router.get(
 router.get(
     "/new-arrivals",
     productController.getNewArrivalProducts
+);
+
+router.get(
+    "/suggestions",
+    productController.getSearchSuggestions
 );
 
 router.get(

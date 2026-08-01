@@ -127,6 +127,31 @@ class ProductController {
 
     }
 
+    async getSearchSuggestions(req, res, next) {
+
+        try {
+
+            const suggestions =
+                await productService.getSearchSuggestions(
+                    req.query.q
+                );
+
+            res.status(200).json({
+
+                success: true,
+
+                data: suggestions
+
+            });
+
+        } catch (error) {
+
+            next(error);
+
+        }
+
+    }
+
 }
 
 module.exports = new ProductController();
