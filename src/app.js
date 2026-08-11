@@ -14,6 +14,8 @@ const authRoutes =
   require(
     "./routes/authRoutes"
   );
+  const userRoutes =
+    require("./routes/userRoutes");
   const productRoutes =
 require("./routes/productRoutes");
 const brandRoutes =
@@ -98,7 +100,10 @@ app.use("/api/categories", categoryRoutes);
 app.use("/api/banners", bannerRoutes);
 app.use("/api/cart", cartRoutes);
 
-
+app.use(
+    "/api/users",
+    userRoutes
+);
 
 
 app.use(errorHandler);
