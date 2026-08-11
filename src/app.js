@@ -14,6 +14,8 @@ const authRoutes =
   require(
     "./routes/authRoutes"
   );
+  const userRoutes =
+    require("./routes/userRoutes");
   const productRoutes =
 require("./routes/productRoutes");
 const brandRoutes =
@@ -23,6 +25,8 @@ require("./routes/categoryRoutes");
 const bannerRoutes =
 require("./routes/bannerRoutes");
 const cartRoutes = require("./routes/cartRoutes");
+const wishlistRoutes =
+    require("./routes/wishlistRoutes");
 const app = express();
 app.use(
   express.json({
@@ -85,6 +89,10 @@ app.use(
     "/api/banners",
     bannerRoutes
 );
+app.use(
+    "/api/wishlist",
+    wishlistRoutes
+);
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/brands", brandRoutes);
@@ -92,6 +100,10 @@ app.use("/api/categories", categoryRoutes);
 app.use("/api/banners", bannerRoutes);
 app.use("/api/cart", cartRoutes);
 
+app.use(
+    "/api/users",
+    userRoutes
+);
 
 
 app.use(errorHandler);
