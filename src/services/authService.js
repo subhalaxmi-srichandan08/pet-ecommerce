@@ -1,4 +1,7 @@
 const crypto = require("crypto");
+const {
+    verifyGoogleToken
+} = require("../utils/googleAuth");
 const userRepository = require("../repositories/userRepository");
 const refreshTokenRepository = require("../repositories/refreshTokenRepository");
 const { generateAccessToken, generateRefreshToken, verifyRefreshToken } = require("../utils/jwt");
@@ -214,7 +217,7 @@ class AuthService {
 
         const resetLink =
 
-            `${process.env.NODE_ENV=="development"?process.env.LOCAL_URL:process.env.CLIENT_URL}/reset-password/${resetToken}`;
+            `${process.env.NODE_ENV == "development" ? process.env.LOCAL_URL : process.env.CLIENT_URL}/reset-password/${resetToken}`;
 
         await emailService.sendMail({
             to: user.email,
@@ -252,6 +255,184 @@ class AuthService {
         await refreshTokenRepository.deleteAllByUser(
             user._id
         );
+    }
+
+    async googleLogin(credential, req, res) {
+
+        let googleUser;
+
+        try {
+
+            googleUser =
+                await verifyGoogleToken(
+                    credential
+                );
+
+        } catch (error) {
+
+            throw new ApiError(
+                401,
+                "Invalid Google authentication."
+            );
+
+        }
+
+        let user =
+            await userRepository.findByEmail(
+                googleUser.email,
+                true
+            );
+
+        /*
+         * Existing user
+         */
+        if (user) {
+
+            if (user.isBlocked) {
+
+                throw new ApiError(
+                    403,
+                    "Account blocked."
+                );
+
+            }
+
+            /*
+             * Link Google account to an
+             * existing email account.
+             */
+            if (!user.googleId) {
+
+                user.googleId =
+                    googleUser.googleId;
+
+            }
+
+            user.authProvider = "google";
+
+            if (
+                googleUser.avatar &&
+                !user.avatar
+            ) {
+
+                user.avatar =
+                    googleUser.avatar;
+
+            }
+
+            user.isVerified = true;
+            user.lastLogin = new Date();
+
+            await user.save();
+
+        }
+
+        /*
+         * New Google user
+         */
+        else {
+
+            const generatedPassword =
+                crypto.randomBytes(32).toString("hex");
+
+            user =
+                await userRepository.create({
+
+                    firstName:
+                        googleUser.firstName ||
+                        "PawPoint",
+
+                    lastName:
+                        googleUser.lastName ||
+                        "User",
+
+                    email:
+                        googleUser.email,
+
+                    password:
+                        generatedPassword,
+
+                    googleId:
+                        googleUser.googleId,
+
+                    authProvider:
+                        "google",
+
+                    avatar:
+                        googleUser.avatar,
+
+                    isVerified:
+                        true,
+
+                    lastLogin:
+                        new Date()
+
+                });
+
+        }
+
+        /*
+         * Generate normal PawPoint JWTs.
+         */
+
+        const accessToken =
+            generateAccessToken(user);
+
+        const refreshToken =
+            generateRefreshToken(user);
+
+        const hashedToken =
+            hashToken(refreshToken);
+
+        await refreshTokenRepository.create({
+
+            user: user._id,
+
+            token: hashedToken,
+
+            expiresAt:
+                new Date(
+                    Date.now() +
+                    7 * 24 * 60 * 60 * 1000
+                ),
+
+            ip: req.ip,
+
+            device:
+                req.headers["user-agent"] || ""
+
+        });
+
+        res.cookie(
+            "refreshToken",
+            refreshToken,
+            this.cookieOptions
+        );
+
+        return {
+
+            accessToken,
+
+            user: {
+
+                id: user._id,
+
+                firstName:
+                    user.firstName,
+
+                lastName:
+                    user.lastName,
+
+                email:
+                    user.email,
+
+                role:
+                    user.role
+
+            }
+
+        };
+
     }
 
 }
