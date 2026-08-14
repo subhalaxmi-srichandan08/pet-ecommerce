@@ -165,6 +165,40 @@ class AuthController {
 
     }
 
+    async googleLogin(req, res, next) {
+
+    try {
+
+        const {
+            credential
+        } = req.body;
+
+        const result =
+            await authService.googleLogin(
+                credential,
+                req,
+                res
+            );
+
+        return res.json({
+
+            success: true,
+
+            message:
+                "Google authentication successful.",
+
+            data: result
+
+        });
+
+    } catch (error) {
+
+        next(error);
+
+    }
+
+}
+
 }
 
 
