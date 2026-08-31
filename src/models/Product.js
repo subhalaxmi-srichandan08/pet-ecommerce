@@ -51,7 +51,6 @@ const productSchema = new mongoose.Schema(
     sku: {
       type: String,
       required: true,
-      unique: true,
       trim: true,
       uppercase: true,
     },
@@ -59,7 +58,6 @@ const productSchema = new mongoose.Schema(
     slug: {
       type: String,
       required: true,
-      unique: true,
       lowercase: true,
       trim: true,
     },
@@ -86,27 +84,24 @@ const productSchema = new mongoose.Schema(
       type: String,
       enum: ["Dog", "Cat"],
       required: true,
-      index: true,
     },
 
     brand: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Brand",
       required: true,
-      index: true,
     },
 
     category: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Category",
       required: true,
-      index: true,
     },
 
     thumbnail: {
       type: String,
       required: true,
-       default: "https://placehold.co/600x600/png"
+      default: "https://placehold.co/600x600/png",
     },
 
     images: [
@@ -196,48 +191,6 @@ const productSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-
-productSchema.index({
-  slug: 1,
-});
-
-productSchema.index({
-  sku: 1,
-});
-
-productSchema.index({
-  brand: 1,
-});
-
-productSchema.index({
-  category: 1,
-});
-
-productSchema.index({
-  pet: 1,
-});
-
-productSchema.index({
-  labels: 1,
-});
-
-productSchema.index({
-  isActive: 1,
-});
-
-productSchema.index({
-  price: 1,
-});
-
-productSchema.index({
-  rating: -1,
-});
-
-productSchema.index({
-    name: "text",
-    shortDescription: "text",
-    tags: "text",
-});
 
 module.exports = mongoose.model(
   "Product",

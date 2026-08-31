@@ -6,7 +6,6 @@ const brandSchema = new mongoose.Schema(
       type: String,
       required: true,
       trim: true,
-      unique: true,
       maxlength: 100,
     },
 
@@ -15,7 +14,6 @@ const brandSchema = new mongoose.Schema(
       required: true,
       trim: true,
       lowercase: true,
-      unique: true,
     },
 
     logo: {
@@ -58,27 +56,6 @@ const brandSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-
-brandSchema.index(
-  {
-    slug: 1,
-  },
-  {
-    unique: true,
-  }
-);
-
-brandSchema.index({
-  featured: 1,
-});
-
-brandSchema.index({
-  isActive: 1,
-});
-
-brandSchema.index({
-    name: 1
-});
 
 module.exports = mongoose.model(
   "Brand",

@@ -6,7 +6,6 @@ const categorySchema = new mongoose.Schema(
       type: String,
       enum: ["Dog", "Cat"],
       required: true,
-      index: true,
     },
 
     name: {
@@ -21,7 +20,6 @@ const categorySchema = new mongoose.Schema(
       required: true,
       trim: true,
       lowercase: true,
-      unique: true,
     },
 
     image: {
@@ -59,15 +57,6 @@ const categorySchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-
-categorySchema.index({
-  pet: 1,
-  featured: 1,
-});
-
-categorySchema.index({
-  slug: 1,
-});
 
 module.exports = mongoose.model(
   "Category",

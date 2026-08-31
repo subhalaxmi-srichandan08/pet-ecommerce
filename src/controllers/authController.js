@@ -116,7 +116,7 @@ class AuthController {
     async forgotPassword(req, res, next) {
 
         try {
-            console.log(req.body);
+            // console.log(req.body);
             await authService.forgotPassword(req.body.email);
 
             return res.json({

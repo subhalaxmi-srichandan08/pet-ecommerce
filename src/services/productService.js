@@ -126,11 +126,11 @@ class ProductService {
 
         // Brand Filter
         if (brand) {
-            console.log("Brand Slug:", brand);
+            // console.log("Brand Slug:", brand);
             const brandData = await Brand.findOne({
                 slug: brand
             });
-            console.log("Brand Data:", brandData);
+            // console.log("Brand Data:", brandData);
             if (brandData) {
                 filter.brand = brandData._id;
             }
@@ -222,7 +222,7 @@ class ProductService {
         const skip =
             (Number(page) - 1) *
             Number(limit);
-        console.log("FILTER =", JSON.stringify(filter, null, 2));
+        // console.log("FILTER =", JSON.stringify(filter, null, 2));
         const [products, total] =
             await Promise.all([
 

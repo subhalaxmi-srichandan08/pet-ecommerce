@@ -74,7 +74,7 @@ class AuthService {
             ip: req.ip,
             device: req.headers["user-agent"] || ""
         });
-        console.log(this.cookieOptions);
+        // console.log(this.cookieOptions);
         res.cookie("refreshToken", refreshToken, this.cookieOptions);
 
         user.lastLogin = new Date();
@@ -97,12 +97,12 @@ class AuthService {
     async refresh(req, res) {
 
         const refreshToken = req.cookies.refreshToken;
-        console.log("Cookie Header:", req.headers.cookie);
-        console.log("Parsed Cookies:", req.cookies);
-        console.log("Origin:", req.headers.origin);
-        console.log("Cookie Header:", req.headers.cookie);
-        console.log("Parsed Cookies:", req.cookies);
-        console.log("NODE_ENV:", process.env.NODE_ENV);
+        // console.log("Cookie Header:", req.headers.cookie);
+        // console.log("Parsed Cookies:", req.cookies);
+        // console.log("Origin:", req.headers.origin);
+        // console.log("Cookie Header:", req.headers.cookie);
+        // console.log("Parsed Cookies:", req.cookies);
+        // console.log("NODE_ENV:", process.env.NODE_ENV);
         if (!refreshToken) throw new ApiError(401, "Unauthorized.");
 
         let payload;

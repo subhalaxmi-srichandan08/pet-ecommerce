@@ -22,41 +22,41 @@ async function seedDatabase() {
 
     await connectDB();
 
-    console.log("\n===============================");
-    console.log("Starting Database Seeding...");
-    console.log("===============================\n");
+    // console.log("\n===============================");
+    // console.log("Starting Database Seeding...");
+    // console.log("===============================\n");
 
     const brands = await loadJSON("brands.json");
     const categories = await loadJSON("categories.json");
     const banners = await loadJSON("banners.json");
     const products = await loadJSON("products.json");
 
-    console.log("Clearing existing collections...");
+    // console.log("Clearing existing collections...");
 
     await Product.deleteMany({});
     await Banner.deleteMany({});
     await Category.deleteMany({});
     await Brand.deleteMany({});
 
-    console.log("Collections cleared.\n");
+    // console.log("Collections cleared.\n");
 
-    console.log("Seeding Brands...");
+    // console.log("Seeding Brands...");
 
     const insertedBrands = await Brand.insertMany(brands);
 
-    console.log(`Inserted ${insertedBrands.length} brands.`);
+    // console.log(`Inserted ${insertedBrands.length} brands.`);
 
-    console.log("Seeding Categories...");
+    // console.log("Seeding Categories...");
 
     const insertedCategories = await Category.insertMany(categories);
 
-    console.log(`Inserted ${insertedCategories.length} categories.`);
+    // console.log(`Inserted ${insertedCategories.length} categories.`);
 
-    console.log("Seeding Banners...");
+    // console.log("Seeding Banners...");
 
     const insertedBanners = await Banner.insertMany(banners);
 
-    console.log(`Inserted ${insertedBanners.length} banners.`);
+    // console.log(`Inserted ${insertedBanners.length} banners.`);
 
     const brandMap = new Map();
 
@@ -70,7 +70,7 @@ async function seedDatabase() {
       categoryMap.set(category.slug, category._id);
     });
 
-    console.log("Preparing Products...");
+    // console.log("Preparing Products...");
 
     const formattedProducts = products.map((product) => ({
       ...product,
@@ -83,19 +83,19 @@ async function seedDatabase() {
     "https://placehold.co/600x600/png",
     }));
 
-    console.log("Seeding Products...");
+    // console.log("Seeding Products...");
 
     const insertedProducts = await Product.insertMany(
       formattedProducts
     );
 
-    console.log(
-      `Inserted ${insertedProducts.length} products.`
-    );
+    // console.log(
+    //   `Inserted ${insertedProducts.length} products.`
+    // );
 
-    console.log("\n=================================");
-    console.log("Database Seeded Successfully");
-    console.log("=================================\n");
+    // console.log("\n=================================");
+    // console.log("Database Seeded Successfully");
+    // console.log("=================================\n");
 
     await mongoose.disconnect();
 
